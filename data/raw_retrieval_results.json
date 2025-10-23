@@ -1,0 +1,1562 @@
+{
+  "q1": {
+    "question": "A 52-year-old woman presents with a palpable breast mass. Mammography reveals a 2.5 cm spiculated mass with microcalcifications. Core needle biopsy confirms invasive ductal carcinoma, ER positive, PR positive, HER2 negative. What is the most appropriate initial treatment?",
+    "full_question": {
+      "id": "q1",
+      "question": "A 52-year-old woman presents with a palpable breast mass. Mammography reveals a 2.5 cm spiculated mass with microcalcifications. Core needle biopsy confirms invasive ductal carcinoma, ER positive, PR positive, HER2 negative. What is the most appropriate initial treatment?",
+      "options": {
+        "A": "Lumpectomy with sentinel lymph node biopsy followed by radiation",
+        "B": "Neoadjuvant chemotherapy followed by mastectomy",
+        "C": "Mastectomy alone without lymph node evaluation",
+        "D": "Hormonal therapy alone without surgery"
+      },
+      "answer": "A"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.8238853812217712,
+        "id": "pubmed_36761373",
+        "title": "Axillary chest wall solid-papillary carcinoma A case report on presentation and management.",
+        "content": "Papillary breast carcinomas comprise <1% of all breast cancers. They are notorious among surgical pathologists for posing diagnostic difficulty, especially with small sample sizes, such as a core-needle biopsy and carry potential for overtreatment. Solid-papillary carcinoma is a subtype of papillary breast carcinomas that affects elderly females and generally has a favorable diagnosis in its in-situ form. This report focuses on the unique and clinically aggressive presentation and treatment of i..."
+      },
+      {
+        "rank": 2,
+        "score": 0.8222119212150574,
+        "id": "pubmed_36300433",
+        "title": "A large, purple swelling of the breast.",
+        "content": "A 52-year-old female presented with a large mass in the left breast. After analysis with ultrasound and histological biopsy of the tumor a malignant phyllodestumor was diagnosed. The patient was treated with mastectomy of the left breast."
+      },
+      {
+        "rank": 3,
+        "score": 0.8215433359146118,
+        "id": "pubmed_36291997",
+        "title": "Focal Uptake in the Sternum on",
+        "content": "A woman in her 70s was diagnosed with left breast cancer and left axillary lymph node metastasis by an ultrasound-guided biopsy."
+      },
+      {
+        "rank": 4,
+        "score": 0.8215171098709106,
+        "id": "pubmed_36335923",
+        "title": "Management of Radiographic Lesions of the Breast.",
+        "content": "Breast imaging plays an essential role in the diagnosis and management of breast disease. From screening asymptomatic patients to evaluating clinical abnormalities on diagnostic studies, breast imaging provides critical information to the breast surgeon. Available imaging studies include those that have been proved over many years, like mammography, and those that take advantage of increasingly sophisticated technology, like breast MRI. Image-guided biopsy provides a safe means of evaluating ind..."
+      },
+      {
+        "rank": 5,
+        "score": 0.821003258228302,
+        "id": "pubmed_36793604",
+        "title": "Locoregional treatment of",
+        "content": "Approximately 6% of metastatic breast cancers arise"
+      },
+      {
+        "rank": 6,
+        "score": 0.8206775188446045,
+        "id": "InternalMed_Harrison_6909",
+        "title": "InternalMed_Harrison",
+        "content": "Breast cancer develops as a series of molecular changes in the epithelial cells that lead to ever more malignant behavior. Increased use of mammography has led to more frequent diagnoses of noninvasive breast cancer. These lesions fall into two groups: ductal carcinoma in situ (DCIS) and lobular carcinoma in situ (lobular neoplasia). The management of both entities is controversial."
+      },
+      {
+        "rank": 7,
+        "score": 0.8188633322715759,
+        "id": "InternalMed_Harrison_5990",
+        "title": "InternalMed_Harrison",
+        "content": "<70% of women received screening in the intervention arm, potentially diluting the observed effect. A meta-analysis of eight large randomized trials showed a 15% relative reduction in mortality (relative risk 0.85; 95% confidence interval 0.75\u20130.96) from mammography screening for women age 39\u201349 years after 11\u201320 years of follow-up. This is equivalent to a number needed to invite to screening of 1904 over 10 years to prevent one breast cancer death. At the same time, nearly half of women age 40\u2013..."
+      },
+      {
+        "rank": 8,
+        "score": 0.8166778683662415,
+        "id": "Pathology_Robbins_4387",
+        "title": "Pathology_Robbins",
+        "content": "Regardless of presenting symptom, the likelihood of malignancy increases with age. For example, the risk of nipple discharge being due to cancer increases from 7% in women younger than 60 years of age to 30% in women older than 60. Similarly, only 10% of palpable masses in women younger than 40 years of age are carcinomas, as compared to 60% in women older than 50. Mammographic screening was introduced in the 1980s as a means to detect early, nonpalpable asymptomatic breast carcinomas before met..."
+      },
+      {
+        "rank": 9,
+        "score": 0.8160461783409119,
+        "id": "Surgery_Schwartz_3677",
+        "title": "Surgery_Schwartz",
+        "content": "/ 552Pathology of Proliferative Disorders Without Atypia / 553Pathology of Atypical Proliferative Diseases / 553Treatment of Selected Benign Breast Disorders and Diseases / 554Risk Factors for Breast Cancer555Hormonal and Nonhormonal Risk Factors / 555Risk Assessment Models / 555Risk Management / 556BRCA Mutations / 558Epidemiology and Natural History of Breast Cancer561Epidemiology / 561Natural History / 562Histopathology of Breast Cancer563Carcinoma In Situ / 563Invasive Breast Carcinoma / 565..."
+      },
+      {
+        "rank": 10,
+        "score": 0.8159936666488647,
+        "id": "Gynecology_Novak_7822",
+        "title": "Gynecology_Novak",
+        "content": "When a dominant breast mass is identified, the presence of a carcinoma must be considered, and biopsy should be performed to establish a tissue diagnosis. About 30% to 40% of lesions clinically believed to be malignant will be benign on histologic examination (20). Conversely, 25% of clinically benign-appearing lesions will be malignant when biopsied (21). Biopsy Techniques It is preferable for the patient to be involved in planning her therapy. In most instances, initial biopsy can be followed ..."
+      },
+      {
+        "rank": 11,
+        "score": 0.8154088258743286,
+        "id": "InternalMed_Harrison_6846",
+        "title": "InternalMed_Harrison",
+        "content": "Virtually all breast cancer is diagnosed by biopsy of a nodule detected either on a mammogram or by palpation. Algorithms have been developed to enhance the likelihood of diagnosing breast cancer and reduce the frequency of unnecessary biopsy (Fig. 108-1)."
+      },
+      {
+        "rank": 12,
+        "score": 0.815285861492157,
+        "id": "pubmed_36792273",
+        "title": "High-Risk Lesion Management.",
+        "content": "High-risk lesions or lesions of uncertain malignant potential are frequent findings on image-guided needle biopsy of the breast and comprise a number of distinct entities. These lesions are known for having risk of underlying malignancy and are usually associated with an increased lifetime risk for breast cancer. Surgical excision was traditionally recommended for all high-risk lesions but recent studies have demonstrated that vacuum-assisted excision or surveillance may be adequate for some les..."
+      },
+      {
+        "rank": 13,
+        "score": 0.8148309588432312,
+        "id": "pubmed_36798680",
+        "title": "Intermammary breast cancer A rare case of cancer with origin of breast cells in an unusual location.",
+        "content": "The most common type of cancer among the female population is breast cancer. The most common site for the occurrence of breast cancer is the upper outer quadrant the upper inner quadrant is the second site, and both the lower outer and the lower inner quadrants are in the third place. This problem is rarely seen in the central portion. Intermammary metastasis due to breast cancer is an infrequent finding. This article presents a 62-year-old lady who presented to the surgical ward with intermamma..."
+      },
+      {
+        "rank": 14,
+        "score": 0.8136380314826965,
+        "id": "InternalMed_Harrison_6853",
+        "title": "InternalMed_Harrison",
+        "content": "If a nonpalpable mammographic lesion has a low index of suspicion, mammographic follow-up in 3\u20136 months is reasonable. Workup of indeterminate and suspicious lesions has been rendered more complex by the advent of stereotactic biopsies. Morrow and colleagues have suggested that these procedures are indicated for lesions that require biopsy but are likely to be benign\u2014that is, for cases in which the procedure probably will eliminate additional surgery. When a lesion is more probably malignant, op..."
+      },
+      {
+        "rank": 15,
+        "score": 0.8135828971862793,
+        "id": "InternalMed_Harrison_5996",
+        "title": "InternalMed_Harrison",
+        "content": "Women with >20% lifetime risk of breast cancer: Screen with MRI plus mammography annually Women with 15\u201320% lifetime risk of breast cancer: Discuss option of MRI plus mammography annually Women with <15% lifetime risk of breast cancer: Do not screen annually with MRI Women 21\u201329 years: Screen every 3 years Women 30\u201365 years: Acceptable approach to screen with cytology every 3 years (see HPV test below) Women <21 years: No screening Women >65 years: No screening following adequate negative prior ..."
+      },
+      {
+        "rank": 16,
+        "score": 0.8133695125579834,
+        "id": "pubmed_36684638",
+        "title": "Advanced magnetic resonance imaging of mixed mucinous breast cancer A case report.",
+        "content": "Well-differentiated adenocarcinoma, a rare subtype of infiltrating ductal carcinoma, is a kind of mucinous cancer of the breast. It accounts for around 2% of all invasive breast cancers. The average age of presentation is 65-70 years, whereas women under the age of 35 account for 1% of cases. They are classified as pure or mixed carcinomas depending on the amount of mucin they include knowing the difference is crucial for prognosis and therapy. Despite the lack of sufficient proof, the primary t..."
+      },
+      {
+        "rank": 17,
+        "score": 0.8130598068237305,
+        "id": "InternalMed_Harrison_6848",
+        "title": "InternalMed_Harrison",
+        "content": "or fixed, or painless lesions). A negative mammogram in the presence of a persistent lump in the breast does not exclude malignancy. Palpable lesions require additional diagnostic procedures, including biopsy."
+      },
+      {
+        "rank": 18,
+        "score": 0.8126766681671143,
+        "id": "Gynecology_Novak_7816",
+        "title": "Gynecology_Novak",
+        "content": "Breast cancer commonly arises in the upper outer quadrant, where there is proportionally more breast tissue. Masses are often discovered by the patient and less frequently by the physician during routine breast examination. The increasing use of screening mammography has enhanced the ability to detect nonpalpable breast abnormalities. Metastatic breast cancer is found as an axillary mass without obvious malignancy in less the 1% of cases."
+      },
+      {
+        "rank": 19,
+        "score": 0.8124241828918457,
+        "id": "pubmed_36349178",
+        "title": "Ductal Carcinoma In Situ (DCIS) Diagnosed by MRI-Guided Biopsy among",
+        "content": "While To assess the rate of detection over a 5-year period, and MRI imaging features of pure noncalcified DCIS in a cohort of Israeli All female 18121 (15.2%) participating MRI-detected noncalcified DCIS is more frequent in"
+      },
+      {
+        "rank": 20,
+        "score": 0.8120651841163635,
+        "id": "InternalMed_Harrison_6858",
+        "title": "InternalMed_Harrison",
+        "content": "(3%) with atypical hyperplasia, have a fourfold greater risk of developing breast cancer than those women who have not had a biopsy, and the increase in the risk is about ninefold for women in this category who also have an affected first-degree relative. Thus, careful follow-up of these patients is required. By contrast, patients with a benign biopsy without atypical hyperplasia are at little risk and may be followed routinely."
+      }
+    ]
+  },
+  "q2": {
+    "question": "Which of the following molecular markers is most strongly associated with response to trastuzumab therapy in breast cancer?",
+    "full_question": {
+      "id": "q2",
+      "question": "Which of the following molecular markers is most strongly associated with response to trastuzumab therapy in breast cancer?",
+      "options": {
+        "A": "ER (Estrogen Receptor) positivity",
+        "B": "PR (Progesterone Receptor) positivity",
+        "C": "HER2 (Human Epidermal Growth Factor Receptor 2) amplification",
+        "D": "BRCA1 mutation"
+      },
+      "answer": "C"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.8125879168510437,
+        "id": "pubmed_36276152",
+        "title": "Trastuzumab resistance in HER2-positive breast cancer Mechanisms, emerging biomarkers and targeting agents.",
+        "content": "Trastuzumab is a standard molecular targeted therapy for human epidermal growth factor receptor 2(HER2) -positive breast cancer, which can significantly improve the survival of patients with this molecular subtype of breast cancer. However, the clinical problem of onset or secondary resistance to trastuzumab has limited its efficacy. Therefore, it is very important to explore the mechanism of trastuzumab resistance and formulate countermeasures. Our study described the underlying molecular mecha..."
+      },
+      {
+        "rank": 2,
+        "score": 0.8003214597702026,
+        "id": "pubmed_36344672",
+        "title": "Targeting HER2-positive breast cancer advances and future directions.",
+        "content": "The long-sought discovery of HER2 as an actionable and highly sensitive therapeutic target was a major breakthrough for the treatment of highly aggressive HER2-positive breast cancer, leading to approval of the first HER2-targeted drug - the monoclonal antibody trastuzumab - almost 25 years ago. Since then, progress has been swift and the impressive clinical activity across multiple trials with monoclonal antibodies, tyrosine kinase inhibitors and antibody-drug conjugates that target HER2 has sp..."
+      },
+      {
+        "rank": 3,
+        "score": 0.7955656051635742,
+        "id": "pubmed_36358746",
+        "title": "The Role of MicroRNAs in HER2-Positive Breast Cancer Where We Are and Future Prospective.",
+        "content": "Breast cancer that highly expresses human epidermal growth factor receptor 2 (HER2) represents one of the major breast cancer subtypes, and was associated with a poor prognosis until the introduction of HER2-targeted therapies such as trastuzumab. Unfortunately, up to 30% of patients with HER2 localized breast cancer continue to relapse, despite treatment. MicroRNAs (miRNAs) are small (approximately 20 nucleotides long) non-coding regulatory oligonucleotides. They function as post-transcriptiona..."
+      },
+      {
+        "rank": 4,
+        "score": 0.7916920185089111,
+        "id": "pubmed_36408586",
+        "title": "The evolving therapeutic landscape of antibody-drug conjugates in breast cancer.",
+        "content": "Antibody-drug conjugates (ADCs) are a relatively new class of anti-cancer therapies approved for a number of malignancies, including breast cancer. Their unique structure, consisting of a monoclonal antibody connected via a linker to a toxic payload, combines characteristics of both targeted therapy and chemotherapy. In this review, we discuss the unique molecular structure and pharmacologic principles of ADCs and present the clinical efficacy and relevant toxicities of ADCs both approved and in..."
+      },
+      {
+        "rank": 5,
+        "score": 0.788624107837677,
+        "id": "pubmed_36291835",
+        "title": "Event-Free Survival in Patients with Early HER2-Positive Breast Cancer with a Pathological Complete Response after HER2-Targeted Therapy A Pooled Analysis.",
+        "content": "The standard-of-care for patients with pathological complete response (pCR) after neoadjuvant human epidermal growth factor receptor 2 (HER2)-targeted therapy plus chemotherapy is continuation of HER2-targeted therapy in the adjuvant setting. Our objective was to evaluate risk of recurrence or death in these patients and determine if outcomes differed by the HER2-targeted regimen received in each setting. We analyzed patient-level data from five randomized trials evaluating trastuzumab, pertuzum..."
+      },
+      {
+        "rank": 6,
+        "score": 0.7877840399742126,
+        "id": "pubmed_36730064",
+        "title": "The Biomarker Ki-67 Promise, Potential, and Problems in Breast Cancer.",
+        "content": "Ki-67 is a nuclear protein serendipitously discovered by monoclonal antibody selection in the early 1980s. While it has been applied for decades in the context of breast cancer as a putative prognostic and, more recently, predictive, biomarker, even after all this time there is incomplete agreement as to the validity of the immunohistochemical assays employed for Ki-67 assessment, given possible effects of the disparate methodologies employed and possible confounding preanalytical, analytical, a..."
+      },
+      {
+        "rank": 7,
+        "score": 0.7848458886146545,
+        "id": "pubmed_36435605",
+        "title": "Biology and Treatment of HER2-Low Breast Cancer.",
+        "content": "Current guidelines recommend a dichotomous classification of HER2 as either positive or negative, to guide clinicians in treatment decisions. Until now, only patients with HER2-positive breast cancer (BC) had been demonstrated to derive clinical benefit from anti-HER2 therapies. However, novel ADCs have recently emerged, with activity in the large population of patients with HER2-low-expressing BC. Although it remains unclear whether HER2-low BC represents a distinct entity, given the therapeuti..."
+      },
+      {
+        "rank": 8,
+        "score": 0.7846105098724365,
+        "id": "pubmed_36796936",
+        "title": "Lessons from other fields of medicine, Part 1 Breast cancer.",
+        "content": "Through the understanding of multiple etiologies, pathologies, and disease progression trajectories, breast cancer shifted historically from a singular malignancy of the breast to a complex of molecularbiological entities, translating into individualized disease-modifying treatments. As a result, this led to various de-escalations of treatment compared with the gold standard in the era preceding systems biology radical mastectomy. Targeted therapies have minimized morbidity from the treatments a..."
+      },
+      {
+        "rank": 9,
+        "score": 0.7842797040939331,
+        "id": "pubmed_36255603",
+        "title": "Immune Checkpoint Inhibitors and Novel Immunotherapy Approaches for Breast Cancer.",
+        "content": "To critically review the existing evidence on immune checkpoint inhibitors (ICIs) in early-stage and metastatic breast cancer and discuss emerging strategies in the different breast cancer subtypes. Immunotherapy has become one of the major milestones in contemporary oncology, revolutionizing the treatment of multiple solid tumors. ICI agents combined with chemotherapy have demonstrated significant efficacy in both early-stage and metastatic triple-negative breast cancer. However, only a subgrou..."
+      },
+      {
+        "rank": 10,
+        "score": 0.7841602563858032,
+        "id": "pubmed_36357174",
+        "title": "Resistance to antibody-drug conjugates in breast cancer mechanisms and solutions.",
+        "content": "Antibody-drug conjugates (ADCs) are a rapidly developing therapeutic approach in cancer treatment that has shown remarkable activity in breast cancer. Currently, there are two ADCs approved for the treatment of human epidermal growth factor receptor 2-positive breast cancer, one for triple-negative breast cancer, and multiple investigational ADCs in clinical trials. However, drug resistance has been noticed in clinical use, especially in trastuzumab emtansine. Here, the mechanisms of ADC resista..."
+      },
+      {
+        "rank": 11,
+        "score": 0.784014105796814,
+        "id": "pubmed_36627895",
+        "title": "Loss of HER2 in breast cancer biological mechanisms and technical pitfalls.",
+        "content": "Loss of HER2 in previously HER2-positive breast tumors is not rare, occurring in up to 50% of breast cancers however, clinical research and practice underestimate this issue. Many studies have reported the loss of HER2 after neoadjuvant therapy and at metastatic relapse and identified clinicopathological variables more frequently associated with this event. Nevertheless, the biological mechanisms underlying HER2 loss are still poorly understood. HER2 downregulation, intratumoral heterogeneity, c..."
+      },
+      {
+        "rank": 12,
+        "score": 0.7831682562828064,
+        "id": "pubmed_36210846",
+        "title": "Drug-resistant HER2-positive breast cancer Molecular mechanisms and overcoming strategies.",
+        "content": "Breast cancer is one of the most common malignancies and the leading cause of cancer-related death in women. HER2 overexpression is a factor for poor prognosis in breast cancer, and anti-HER2 therapy improves survival in these patients. A dual-targeted combination of pertuzumab and trastuzumab, alongside cytotoxic chemotherapy, constitutes the primary treatment option for individuals with early-stage, HER2-positive breast cancer. Antibody-drug conjugate (ADC) and tyrosine kinase inhibitors (TKI)..."
+      },
+      {
+        "rank": 13,
+        "score": 0.782706081867218,
+        "id": "pubmed_36581518",
+        "title": "Molecular Imaging of HER2 Expression in Breast Cancer patients Using the",
+        "content": "The accurate determination of human epidermal growth factor receptor 2 (HER2) status can predict response to treatment with HER2-targeted therapy for HER2-positive breast cancer patients. In total, 24 women with suspected primary breast cancer received an intravenous injection of approximately 20 \u00b5g (\u223c740 MBq) of Injection of The findings of this study indicated that"
+      },
+      {
+        "rank": 14,
+        "score": 0.7825754880905151,
+        "id": "pubmed_36793602",
+        "title": "Review of the status of neoadjuvant therapy in HER2-positive breast cancer.",
+        "content": "The development of human epidermal growth factor receptor 2 (HER2)-directed therapies has revolutionized the treatment of HER2-positive breast cancer. The aim of this article is to review the continually evolving treatment strategies in the neoadjuvant setting of HER2-positive breast cancer, as well as the current challenges and future perspectives. Searches were undertaken on PubMed and Clinicaltrials.gov for relevant publications and trials. The current standard of care in high-risk HER2-posit..."
+      },
+      {
+        "rank": 15,
+        "score": 0.7815632820129395,
+        "id": "pubmed_36532256",
+        "title": "Advances in Antibody-Drug Conjugates in the Treatment of HER2-Positive Breast Cancer.",
+        "content": "Although targeted drugs improved the therapeutic effect of HER2-positive breast cancer, the long-term prognosis was still poor. In this regard, the research and development of antibody-drug conjugates (ADCs) came into being and made a lot of progress. ADCs had the characteristics of both chemotherapeutic agents and targeted agents by combining chemotherapeutic agents and targeted agents through a linker. It not only had a strong anti-tumor effect on HER2-positive breast cancer, but also had cert..."
+      },
+      {
+        "rank": 16,
+        "score": 0.7814359068870544,
+        "id": "pubmed_36435604",
+        "title": "Systemic Therapy for Early- and Late-Stage, Human Epidermal Growth Factor Receptor-2-Positive Breast Cancer.",
+        "content": "Systemic therapy for both early-stage and metastatic human epidermal growth factor receptor-2-positive (HER2) breast cancer has seen significant evolution over the last 20 or more years. Innovative trials leveraging the prognostic and predictive information that neoadjuvant chemotherapy provides has led to preoperative systemic therapy becoming the overwhelmingly favored sequencing in the early-stage setting. However, deintensification of therapy is important to consider for patients with good-r..."
+      },
+      {
+        "rank": 17,
+        "score": 0.7809682488441467,
+        "id": "pubmed_36427769",
+        "title": "HER2-low breast cancer Novel detections and treatment advances.",
+        "content": "Breast cancer (BC), which has the highest cancer incidence in women, seriously threatens womens health. Since human epidermal growth factor receptor-2 (HER2) characterization, breast cancer treatment has entered an era of individualized targeted therapy. With the emergence of anti-HER2 targeting agents, monoclonal antibodies (mAbs) and tyrosine kinase inhibitors have considerably improved the prognosis of HER2-positive BC. However, HER2-low BC, accounting for 45-55% of BC patients, is less likel..."
+      },
+      {
+        "rank": 18,
+        "score": 0.7806065082550049,
+        "id": "pubmed_36617643",
+        "title": "Emerging Therapies for Breast Cancer.",
+        "content": "The steady, incremental improvements in outcomes for both early-stage and advanced breast cancer patients are, in large part, attributable to the success of novel systemic therapies. In this review, we discuss key conceptual paradigms that have underpinned this success including (1) targeting the driver the identification and targeting of major oncoproteins in breast cancers (2) targeting the lineage pathway inhibition of those pathways that drive normal mammary epithelial cell proliferation tha..."
+      },
+      {
+        "rank": 19,
+        "score": 0.7803873419761658,
+        "id": "pubmed_36751658",
+        "title": "Pertuzumab in Combination with Trastuzumab and Docetaxel in the Neoadjuvant Treatment for HER2-Positive Breast Cancer.",
+        "content": "This study aims to assess safety and effectiveness of pertuzumab in combination with trastuzumab and docetaxel in the neoadjuvant treatment (NeoT) of HER2-positive breast cancer. Two consecutive retrospective cohorts ( The 2012-2015 cohort was older (median 53 years), with locally advanced tumors (48.1%), mostly hormone receptor positive (59.3%). The 2015-2017 cohort was younger (median 43 years) with 60% operable tumors. Pathologic complete response (pCR) improved in the second cohort, while ma..."
+      },
+      {
+        "rank": 20,
+        "score": 0.7797694802284241,
+        "id": "pubmed_36233758",
+        "title": "The Present and Future of Clinical Management in Metastatic Breast Cancer.",
+        "content": "Regardless of the advances in our ability to detect early and treat breast cancer, it is still one of the common types of malignancy worldwide, with the majority of patients decease upon metastatic disease. Nevertheless, due to these advances, we have extensively characterized the drivers and molecular profiling of breast cancer and further dividing it into subtypes. These subgroups are based on immunohistological markers (Estrogen Receptor-ER Progesterone Receptor-PR and Human Epidermal Growth ..."
+      }
+    ]
+  },
+  "q3": {
+    "question": "A 45-year-old woman with a strong family history of breast and ovarian cancer tests positive for a BRCA1 mutation. She has no current malignancy. Which of the following is the most effective risk-reduction strategy?",
+    "full_question": {
+      "id": "q3",
+      "question": "A 45-year-old woman with a strong family history of breast and ovarian cancer tests positive for a BRCA1 mutation. She has no current malignancy. Which of the following is the most effective risk-reduction strategy?",
+      "options": {
+        "A": "Annual mammography alone",
+        "B": "Tamoxifen chemoprevention only",
+        "C": "Bilateral prophylactic mastectomy and salpingo-oophorectomy",
+        "D": "Increased physical activity and dietary modification"
+      },
+      "answer": "C"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.8259329199790955,
+        "id": "Gynecology_Novak_7205",
+        "title": "Gynecology_Novak",
+        "content": "Although there are some con\ufb02icting data, the behavior of breast cancers arising in women with germline mutations in BRCA1 or BRCA2 is comparable to the behavior of sporadic tumors (61,73). Women with breast cancer who carry these mutations are at a greatly increased risk of ovarian cancer and a second breast cancer: the lifetime risk of ovarian cancer is 54% for women who have a BRCA1 mutation and 23% for those with a BRCA2 mutation, and for the two groups together, there is an 82% lifetime risk..."
+      },
+      {
+        "rank": 2,
+        "score": 0.8220441341400146,
+        "id": "pubmed_36326735",
+        "title": "Receipt of Bilateral Mastectomy Among Women With Hereditary Breast Cancer.",
+        "content": "This case series study examines differences in surgical treatment among adult females with invasive breast cancer who have pathogenic or likely pathogenic variants in genes with high vs moderate breast cancer penetrance."
+      },
+      {
+        "rank": 3,
+        "score": 0.8219730854034424,
+        "id": "pubmed_36262035",
+        "title": "Breast cancer incidence among women with a family history of breast cancer by relatives age at diagnosis.",
+        "content": "Women with a first-degree family history of breast cancer are often advised to begin screening when they are 10 years younger than the age at which their relative was diagnosed. Evidence is lacking to determine how much earlier they should begin. Using Breast Cancer Surveillance Consortium data on screening mammograms from 1996 to 2016, the authors constructed a cohort of 306,147 women 30-59 years of age with information on first-degree family history of breast cancer and relatives age at diagno..."
+      },
+      {
+        "rank": 4,
+        "score": 0.8217878341674805,
+        "id": "pubmed_36571512",
+        "title": "The risks of cancer in older women with BRCA pathogenic variants How far have we come",
+        "content": "The purpose of this study was to estimate the cumulative risks of all cancers in women from 50 to 75 years of age with a BRCA1 or BRCA2 pathogenic variant. Participants were women with BRCA1 or BRCA2 pathogenic variants from 85 centers in 16 countries. Women were eligible if they had no cancer before the age of 50 years. Participants completed a baseline questionnaire and follow-up questionnaires every 2 years. Women were followed from age 50 until a diagnosis of cancer, death, age 75, or last f..."
+      },
+      {
+        "rank": 5,
+        "score": 0.8209856748580933,
+        "id": "pubmed_36410352",
+        "title": "Genetics of Breast Cancer Risk Models, Who to Test, and Management Options.",
+        "content": "Genetic testing plays an important role in assessing breast cancer risk and often the risk of other types of cancers. Accurate risk assessment and stratification represents a critical element of identifying who is best served by increased surveillance and consideration of other prevention or treatment options while also limiting overtreatment and unnecessary testing. The indications for testing will likely continue to expand, and ideally, more women with a genetic predisposition to breast cancer..."
+      },
+      {
+        "rank": 6,
+        "score": 0.820170521736145,
+        "id": "pubmed_36260241",
+        "title": "Uptake of BRCA1BRCA2 predictive genetic testing in an Irish population is low a missed opportunity.",
+        "content": "Predictive testing for BRCA1 or BRCA2 allows at-risk individuals to engage with appropriate screening and treatment services if a pathogenic mutation is identified. Previous studies have shown uptake of predictive testing to most commonly range between 20% and 40% (Table 2). This represents a missed cancer prevention opportunity. Possible explanations for this low uptake include lack of disclosure of at-risk status to relatives, lack of awareness of cancer genetics services, or patient preferenc..."
+      },
+      {
+        "rank": 7,
+        "score": 0.8178268074989319,
+        "id": "Gynecology_Novak_7810",
+        "title": "Gynecology_Novak",
+        "content": "in Jews of Ashkenazi descent (1% to 2.3%) (5). Genetic testing is available and should be considered if there is a high likelihood that results will be positive and will be used to in\ufb02uence decisions regarding the clinical management of the care of the patient and her family. Patients with three of more relatives with breast or ovarian cancer with one of the relatives being diagnosed before the age of 50, two first-or second-degree relatives with breast or ovarian cancer, any relative with male ..."
+      },
+      {
+        "rank": 8,
+        "score": 0.8173425793647766,
+        "id": "Gynecology_Novak_7811",
+        "title": "Gynecology_Novak",
+        "content": "relatives on the same side have breast or ovarian cancer (6). Genetic testing is increasingly important given the evidence that prophylactic surgery may prevent new cancers from occurring, as well as prolong survival, in some cases. A prospective multicenter cohort study of 2,482 women with BRCA1 and BRCA2 mutations between 1974 and 2008 showed risk-reducing mastectomy was associated with a decreased risk of breast cancer. Risk-reducing salpingooophorectomy was associated with decreased risk of ..."
+      },
+      {
+        "rank": 9,
+        "score": 0.8152003884315491,
+        "id": "pubmed_36232793",
+        "title": "Increased Co-Occurrence of Pathogenic Variants in Hereditary Breast and Ovarian Cancer and Lynch Syndromes A Consequence of Multigene Panel Genetic Testing",
+        "content": "The probability of carrying two pathogenic variants (PVs) in dominant cancer-predisposing genes for hereditary breast and ovarian cancer and lynch syndromes in the same patient is uncommon, except in populations where founder effects exist. Two breast cancer women that are double heterozygotes (DH) for both"
+      },
+      {
+        "rank": 10,
+        "score": 0.8150078654289246,
+        "id": "pubmed_36633037",
+        "title": "Oncogenetics.",
+        "content": "Determining whether a hereditary cancer predisposition is present, is important for both the cancer patient and his family. It is relevant for surveillance and prevention or early detection of new tumours, treatment options and issues surrounding the desire to have children. For this reason, it must be ensured that for every patient with cancer (now or in the past) referral for genetic testing is considered. In this article we indicate how to take a family history and where to find and how to ap..."
+      },
+      {
+        "rank": 11,
+        "score": 0.8141685724258423,
+        "id": "pubmed_36553061",
+        "title": "Pathologic Findings at Risk Reducing Surgery in",
+        "content": "Risk-reducing surgery (RRS) is recommended in BRCA-mutated carriers because of their increased risk of developing ovarian cancer, while its role is still discussed for women harboring mutations in non-"
+      },
+      {
+        "rank": 12,
+        "score": 0.8139856457710266,
+        "id": "pubmed_36626703",
+        "title": "Use of exogenous hormones in those at increased risk for breast cancer contraceptive and menopausal hormones in gene carriers and other high-risk patients.",
+        "content": "Addressing the hormonal needs of individuals at increased risk of breast cancer (BC) can be a challenge. Observational, prospective, and case-control data support the safety of hormonal contraception in women, often with the added benefits of ovarian and endometrial cancer risk reduction. The majority of data on menopausal hormone therapy (HT) in the highest-risk patients comes from studies of patients with pathogenic variants in BRCA1 and BRCA2 who undergo early surgical menopause. The benefits..."
+      },
+      {
+        "rank": 13,
+        "score": 0.8139371275901794,
+        "id": "Gynecology_Novak_7808",
+        "title": "Gynecology_Novak",
+        "content": "Less than 1% of breast cancers occur in women younger than 25 years of age. After age 30, there is a sharp increase in the incidence of breast cancer. Except for a short plateau between the ages of 45 and 50 years, the incidence increases steadily with age (2). Family History Of women who develop breast cancer, 20% to 30% have a family history of the disease. Although any family history of breast cancer increases the overall relative risk, this risk is not significantly increased if the disease ..."
+      },
+      {
+        "rank": 14,
+        "score": 0.813473105430603,
+        "id": "Gynecology_Novak_3322",
+        "title": "Gynecology_Novak",
+        "content": "The patient should be questioned about the following risk factors for breast cancer (see Chapter 40 for more details): Increasing age (approximately 50% of breast cancers occur after age 65) Age of menarche less than 12 years Nulliparity or first pregnancy at greater than 30 years of age Late menopause (older than 55 years of age) Family history of breast cancer (especially premenopausal or bilateral disease) Number of first-degree relatives with breast cancer and their ages when diagnosed Famil..."
+      },
+      {
+        "rank": 15,
+        "score": 0.813363254070282,
+        "id": "pubmed_36542252",
+        "title": "Genetic testing in privately insured women with surgically treated breast cancer.",
+        "content": "Rates of BRCA1 and BRCA2 prevalence among women with breast cancer vary by age, hormone receptor status, and family history. Recommendations for genetic testing have varied between overlapping guidelines, payor coverage policies, and have evolved over time, resulting in unclear implications for adoption into routine breast cancer care. Using a large, private insurer database, we examined rates of BRCA1BRCA2 genetic testing in women with newly diagnosed invasive breast cancer undergoing surgery f..."
+      },
+      {
+        "rank": 16,
+        "score": 0.8117039203643799,
+        "id": "InternalMed_Harrison_7528",
+        "title": "InternalMed_Harrison",
+        "content": "early-stage and curable disease, so women with these germline mutations are advised to undergo prophylactic removal of ovaries and fallopian tubes typically after completing childbearing and ideally before age 35\u201340 years. Early prophylactic oophorectomy also protects these women from subsequent breast cancer with a reduction of breast cancer risk of approximately 50%."
+      },
+      {
+        "rank": 17,
+        "score": 0.8116803169250488,
+        "id": "pubmed_36601340",
+        "title": "Comprehensive clinical characterization of patients with",
+        "content": "We provide evidence for the reclassification of the This study included breast or ovarian cancer patients tested for We present 10 breast cancer patients and 7 ovarian cancer patients from 15 families identified as having We presented clinical evidence for the reclassification of"
+      },
+      {
+        "rank": 18,
+        "score": 0.8115847706794739,
+        "id": "InternalMed_Harrison_5970",
+        "title": "InternalMed_Harrison",
+        "content": "Prophylactic bilateral mastectomy may be chosen for breast cancer prevention among women with genetic predisposition to breast cancer. In a prospective series of 139 women with BRCA1 and BRCA2 mutations, 76 chose to undergo prophylactic mastectomy and 63 chose close surveillance. At 3 years, no cases of breast cancer had been diagnosed in those opting for surgery, but eight patients in the surveillance group had developed breast cancer. A larger (n = 639) retrospective cohort study reported that..."
+      },
+      {
+        "rank": 19,
+        "score": 0.8108317852020264,
+        "id": "Gynecology_Novak_7211",
+        "title": "Gynecology_Novak",
+        "content": "Current recommendations for management of women at high risk for ovarian cancer are summarized as follows (72,82): 1. Women who appear to be at high risk for ovarian or breast cancer should undergo genetic counseling and, if the risk appears to be substantial (i.e., a calculated risk of at least 10% in having a mutation in BRCA1 or BRCA2), may be offered genetic testing for BRCA1 and BRCA2. 2. Women who wish to preserve their reproductive capacity can undergo screening by transvaginal ultrasonog..."
+      },
+      {
+        "rank": 20,
+        "score": 0.8104059100151062,
+        "id": "pubmed_36307994",
+        "title": "Evaluation of family history in individuals with heterozygous BRCA pathogenic variants diagnosed with breast or ovarian cancer in a single center in Italy.",
+        "content": "BRCA1 and BRCA2 gene mutations are responsible for 5% of breast cancer (BC) and 10-15% of ovarian cancer (EOC). The presence of a germline mutation and therefore the identification of subjects at high risk of developing cancer should ideally precede the onset of the disease, so that appropriate surveillance and risk-reducing treatments can be proposed. In this study, we revisited the family history (FH) of women who tested positive for BRCA mutations after being diagnosed with BC or EOC. The Nat..."
+      }
+    ]
+  },
+  "q4": {
+    "question": "What is the primary mechanism of action of aromatase inhibitors in the treatment of postmenopausal breast cancer?",
+    "full_question": {
+      "id": "q4",
+      "question": "What is the primary mechanism of action of aromatase inhibitors in the treatment of postmenopausal breast cancer?",
+      "options": {
+        "A": "Direct blockade of estrogen receptors",
+        "B": "Inhibition of peripheral conversion of androgens to estrogens",
+        "C": "Stimulation of progesterone receptor expression",
+        "D": "Enhancement of HER2 receptor degradation"
+      },
+      "answer": "B"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.7480370998382568,
+        "id": "InternalMed_Harrison_6908",
+        "title": "InternalMed_Harrison",
+        "content": "breast cancers in women diagnosed with one cancer is a reasonable surrogate for breast cancer prevention because these are second primaries not recurrences. In this regard, the aromatase inhibitors are all considerably more effective than tamoxifen; however, they are not approved for primary breast cancer prevention. It remains puzzling that agents with the safety 531 profile of raloxifene, which can reduce breast cancer risk by 50% with additional benefits in preventing osteoporotic fracture, a..."
+      },
+      {
+        "rank": 2,
+        "score": 0.7473000884056091,
+        "id": "pubmed_36509360",
+        "title": "Managing Bone Health in Breast Cancer.",
+        "content": "Osteoporosis is a common condition that can be caused or exacerbated by estrogen deficiency. This narrative review will discuss optimizing bone health in the setting of adjuvant endocrine treatments for hormone receptor-positive breast cancer and the current use of antiresorptive agents as adjuvant therapy and as bone modifying agents. Adjuvant endocrine treatments for hormone receptor-positive breast cancer (tamoxifen and aromatase inhibitors) affect bone health. The exact effect depends on the..."
+      },
+      {
+        "rank": 3,
+        "score": 0.7425508499145508,
+        "id": "Pharmacology_Katzung_6015",
+        "title": "Pharmacology_Katzung",
+        "content": "Breast cancer was the first neoplasm shown to be responsive to hormonal manipulation. Tamoxifen is beneficial in postmenopausal women when used alone or in combination with cytotoxic chemotherapy. The present recommendation is to administer tamoxifen for 5 years of continuous therapy after surgical resection. Longer durations of tamoxifen therapy do not appear to offer additional clinical benefit. Postmenopausal women who complete 5 years of tamoxifen therapy should be placed on an aromatase inh..."
+      },
+      {
+        "rank": 4,
+        "score": 0.7411167621612549,
+        "id": "pubmed_36387212",
+        "title": "Extended adjuvant endocrine treatment for premenopausal women A Delphi approach to guide clinical practice.",
+        "content": "The use of an aromatase inhibitor (AI) in combination with ovarian function suppression (OFS) has become the mainstay of adjuvant endocrine therapy in high-risk premenopausal patients with hormone receptor-positive breast cancer. Although five years of such therapy effectively reduces recurrence rates, a substantial risk of late recurrence remains in this setting. Multiple trials have shown that extending AI treatment beyond five years could offer further protection. However, as these studies co..."
+      },
+      {
+        "rank": 5,
+        "score": 0.7395411133766174,
+        "id": "InternalMed_Harrison_6360",
+        "title": "InternalMed_Harrison",
+        "content": "Aromatase refers to a family of enzymes that catalyze the formation of estrogen in various tissues, including the ovary and peripheral adipose tissue and some tumor cells. Aromatase inhibitors are of two types, the irreversible steroid analogues such as exemestane and the reversible inhibitors such as anastrozole or letrozole. Anastrozole is superior to tamoxifen in the adjuvant treatment of breast cancer in postmenopausal patients with estrogen receptor\u2013positive tumors. Letrozole treatment affo..."
+      },
+      {
+        "rank": 6,
+        "score": 0.7379022240638733,
+        "id": "Surgery_Schwartz_4049",
+        "title": "Surgery_Schwartz",
+        "content": "after breast conservation therapy for DCIS and to decrease the risk of a primary invasive breast cancer or a contralateral breast cancer event. Consequently, tamoxifen is not recommended for patients who have had bilateral mastectomies with ER-positive DCIS. With the use of aromatase inhibitors in postmenopausal women, use of adjuvant tamoxifen has increasingly been limited to premenopausal women.Aromatase Inhibitors. In postmenopausal women, aromatase inhibitors are now considered first-line th..."
+      },
+      {
+        "rank": 7,
+        "score": 0.7335876226425171,
+        "id": "Pharmacology_Katzung_6016",
+        "title": "Pharmacology_Katzung",
+        "content": "Results from several randomized trials for breast cancer have established that adjuvant chemotherapy for premenopausal women and adjuvant tamoxifen for postmenopausal women are of benefit to women with stage I (node-negative) breast cancer. While this group of patients has the lowest overall risk of recurrence after surgery alone (about 35\u201350% over 15 years), this risk can be further reduced with adjuvant therapy."
+      },
+      {
+        "rank": 8,
+        "score": 0.7310910224914551,
+        "id": "pubmed_36435616",
+        "title": "Adjuvant Systemic Therapy for Postmenopausal, Hormone Receptor-Positive Early Breast Cancer.",
+        "content": "There is now a deeper understanding of the biology of hormone receptor-positive (HR) early breast cancer (EBC) that can be used to inform assessment of risk and prognosis, and also guide more effective adjuvant systemic therapies. For postmenopausal HR EBC endocrine therapy remains the mainstay of treatment with extended duration up to 10 years for some, the addition of targeted CDK 46 inhibitors for those with node-positive high-risk disease, and de-escalation of chemotherapy use for those in w..."
+      },
+      {
+        "rank": 9,
+        "score": 0.7294194102287292,
+        "id": "InternalMed_Harrison_6879",
+        "title": "InternalMed_Harrison",
+        "content": "Data on postmenopausal women are also controversial. The impact of adjuvant chemotherapy is quantitatively less clear-cut than in premenopausal patients, particularly in estrogen receptor\u2013 positive cases, although survival advantages have been shown. The first decision is whether chemotherapy or endocrine therapy should be used. While adjuvant endocrine therapy (aromatase inhibitors and tamoxifen) improves survival regardless of axillary lymph node status, the improvement in survival is modest f..."
+      },
+      {
+        "rank": 10,
+        "score": 0.7292801141738892,
+        "id": "pubmed_36358625",
+        "title": "Molecular Mechanisms of Anti-Estrogen Therapy Resistance and Novel Targeted Therapies.",
+        "content": "Breast cancer (BC) is the most commonly diagnosed cancer in women, constituting one-third of all cancers in women, and it is the second leading cause of cancer-related deaths in the United States. Anti-estrogen therapies, such as selective estrogen receptor modulators, significantly improve survival in estrogen receptor-positive (ER) BC patients, which represents about 70% of cases. However, about 60% of patients inevitably experience intrinsic or acquired resistance to anti-estrogen therapies, ..."
+      },
+      {
+        "rank": 11,
+        "score": 0.7288018465042114,
+        "id": "pubmed_36519535",
+        "title": "Borderline indications for ovarian suppression addressing uncertainties with patients.",
+        "content": "Ovarian function suppression (OFS) is a potentially life-saving treatment for young women diagnosed with high-risk hormonal-receptor (HR) early breast cancer (EBC), albeit one associated with significant side effects that may adversely affect quality of life. Of particular concern, this article raises a few borderline indications that were largely unaddressed in pivotal clinical trials but are still commonly encountered in daily practice. These, referred to here as borderline indications of OFS ..."
+      },
+      {
+        "rank": 12,
+        "score": 0.7287828922271729,
+        "id": "pubmed_36773184",
+        "title": "Estrogen therapy after breast cancer diagnosis and breast cancer mortality risk.",
+        "content": "The safety of local estrogen therapy in patients on adjuvant endocrine treatment is questioned, but evidence on the issue is scarce. This nested case-control registry-based study aimed to investigate whether estrogen therapy affects breast cancer mortality risk in women on adjuvant endocrine treatment. In a cohort of 15,198 women diagnosed with early hormone receptor (HR)-positive breast cancer and adjuvant endocrine treatment, 1262 women died due to breast cancer and were identified as cases. E..."
+      },
+      {
+        "rank": 13,
+        "score": 0.7281194925308228,
+        "id": "Pharmacology_Katzung_4556",
+        "title": "Pharmacology_Katzung",
+        "content": "CHAPTER 40 The Gonadal Hormones & Inhibitors 737 of patients, and many other minor adverse effects are observed. Studies of patients treated with tamoxifen as adjuvant therapy for early breast cancer have shown a 35% decrease in contralateral breast cancer. However, adjuvant therapy extended beyond 5 years in patients with breast cancer has shown no further improvement in outcome. In fact, resistant lines of tumor cells may recognize tamoxifen as an agonist rather than an antagonist, perhaps due..."
+      },
+      {
+        "rank": 14,
+        "score": 0.7274681925773621,
+        "id": "InternalMed_Harrison_6896",
+        "title": "InternalMed_Harrison",
+        "content": "of agonistic effects are also effective. Cases in which tumors shrink in response to tamoxifen withdrawal (as well as withdrawal of pharmacologic doses of estrogens) have been reported. A series of studies with aromatase inhibitors, tamoxifen, and fulvestrant have all shown that the addition of everolimus to the hormonal treatment can lead to significant benefit after progression on the endocrine agent alone. Everolimus (an mTOR inhibitor) in coordination with endocrine agents is now being explo..."
+      },
+      {
+        "rank": 15,
+        "score": 0.7260990142822266,
+        "id": "pubmed_36618302",
+        "title": "Significance of the Estrogen Hormone and Single Nucleotide Polymorphisms in the Progression of Breast Cancer among Female.",
+        "content": "Breast cancer is one of the most frequent types of malignancies among women and is internationally recognized as the main reason for cancer-caused mortality. Most breast tumors are heterogeneous and genetically complicated due to the involvement of several genes. Therefore, it is clinically important to study genetic variants that increase the risk of breast cancer. It is identified that the presence of polymorphisms in genes encoding regulatory hormones is linked to a higher risk of breast canc..."
+      },
+      {
+        "rank": 16,
+        "score": 0.7251873016357422,
+        "id": "pubmed_36611904",
+        "title": "Hormone-Dependent Cancers Molecular Mechanisms and Therapeutical Implications.",
+        "content": "Hormone-dependent cancers of the breast and prostate are the most common cancers in women and men, respectively ...."
+      },
+      {
+        "rank": 17,
+        "score": 0.7247295379638672,
+        "id": "pubmed_36376977",
+        "title": "Androgen receptor function and targeted therapeutics across breast cancer subtypes.",
+        "content": "Despite significant progress in breast cancer (BC) therapy, it is globally the most commonly diagnosed cancer and leads to the death of over 650,000 women annually. Androgen receptor (AR) is emerging as a potential new therapeutic target in BC. While the role of AR is well established in prostate cancer (PCa), its function in BC remains incompletely understood. Emerging data show that ARs role in BC is dependent on several factors including, but not limited to, disease subtype, tumour microenvir..."
+      },
+      {
+        "rank": 18,
+        "score": 0.724472165107727,
+        "id": "Surgery_Schwartz_4057",
+        "title": "Surgery_Schwartz",
+        "content": "of their breast cancer (objective response) or long-term stabilization of disease (stable disease) are con-sidered to represent \u201cclinical benefit\u201d and should receive addi-tional endocrine therapy at the time of progression because their chances of a further response remain high.294-296 Patients whose tumors progress de novo on an endocrine agent have a low rate of clinical benefit (<20%) to subsequent endocrine therapy; the choice of endocrine or chemotherapy should be considered based on the di..."
+      },
+      {
+        "rank": 19,
+        "score": 0.7242279052734375,
+        "id": "pubmed_36435615",
+        "title": "Role of Ovarian Suppression in Early Premenopausal Breast Cancer.",
+        "content": "The benefit from removing ovaries to control premenopausal breast cancer growth was identified more than 100 years ago. Subsequent identification of estrogen receptor (ER) enabled targeting of this approach. Development of gonadotropin-releasing hormone agonists facilitated a reversible method of ovarian function suppression, suitable for young women with early breast cancer. Clinical trials have established the value of including ovarian suppression to reduce recurrence of ER-positive premenopa..."
+      },
+      {
+        "rank": 20,
+        "score": 0.723503828048706,
+        "id": "Pharmacology_Katzung_5873",
+        "title": "Pharmacology_Katzung",
+        "content": "are effective in the adjuvant therapy of postmenopausal women with early-stage breast cancer whose breast tumors express the estrogen receptor (see Chapter 40 for additional details). However, because these agents are cytostatic rather than cytocidal, they must be administered on a long-term basis, with the standard recommendation being 5 years\u2019 duration."
+      }
+    ]
+  },
+  "q5": {
+    "question": "A 38-year-old woman is diagnosed with inflammatory breast cancer. Which of the following clinical features is most characteristic of this condition?",
+    "full_question": {
+      "id": "q5",
+      "question": "A 38-year-old woman is diagnosed with inflammatory breast cancer. Which of the following clinical features is most characteristic of this condition?",
+      "options": {
+        "A": "A discrete, mobile breast mass",
+        "B": "Peau d'orange appearance with skin erythema and edema",
+        "C": "Nipple discharge without palpable mass",
+        "D": "Bilateral breast calcifications on mammography"
+      },
+      "answer": "B"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.7813814282417297,
+        "id": "pubmed_36761429",
+        "title": "Breast metastasis from endometrial clear cell carcinoma A case report and review of the literature.",
+        "content": "Metastasis to the breast from extra-mammary malignancies are rare, accounting for less than 1% of all breast cancers. Endometrial cancer, a common gynecological malignancy, often spreads to the pelvis, abdominal lymph nodes, peritoneum or the lungs. Endometrial metastasis to the breast is extremely rare, and while there have been isolated case reports of endometrial serous carcinoma with breast metastasis, it has not been reported in the case of clear cell carcinoma. We present a rare case of a ..."
+      },
+      {
+        "rank": 2,
+        "score": 0.7764858603477478,
+        "id": "pubmed_36729801",
+        "title": "Inflammatory Breast Cancer Understanding the Patient Experience.",
+        "content": "Inflammatory breast cancer (IBC) is an aggressive, locally advanced cancer with a 5-year survival rate of approximately 40%. Although patients with IBC likely experience significant and variable symptom burden from diagnosis through survivorship, the description of the symptom burden in this population is limited. The purpose of this study was to describe the experience of patients with IBC and define the content domain for a patient-reported outcome measure of IBC symptom burden. Twenty patient..."
+      },
+      {
+        "rank": 3,
+        "score": 0.774773359298706,
+        "id": "pubmed_36338611",
+        "title": "Do prognosis and clinicopathological features differ in young early-stage breast cancer",
+        "content": "Breast cancer is the most frequently detected cancer and the leading cause of cancer-related death in women. Although it is mostly seen in older patients, breast cancer affects women aged 24 to >70 years, with poorer prognosis in young patients. Young age remains a controversial topic in the literature. This study aimed to identify subtype differences and the effect of age on early-stage breast cancer outcomes. A total of 300 consecutive patients underwent surgery between 2011 and 2015 for early..."
+      },
+      {
+        "rank": 4,
+        "score": 0.7746226191520691,
+        "id": "pubmed_36684638",
+        "title": "Advanced magnetic resonance imaging of mixed mucinous breast cancer A case report.",
+        "content": "Well-differentiated adenocarcinoma, a rare subtype of infiltrating ductal carcinoma, is a kind of mucinous cancer of the breast. It accounts for around 2% of all invasive breast cancers. The average age of presentation is 65-70 years, whereas women under the age of 35 account for 1% of cases. They are classified as pure or mixed carcinomas depending on the amount of mucin they include knowing the difference is crucial for prognosis and therapy. Despite the lack of sufficient proof, the primary t..."
+      },
+      {
+        "rank": 5,
+        "score": 0.7679823637008667,
+        "id": "pubmed_36795394",
+        "title": "Worsening Rash in a Patient With Metastatic Breast Cancer.",
+        "content": "A 56-year-old woman with metastatic hormone receptor\u2013positive, ERBB2-negative breast cancer presents with pruritic, erythematous, scaly macules and papules on her forearms, faces, chest, and upper back. What is your diagnosis"
+      },
+      {
+        "rank": 6,
+        "score": 0.7665445804595947,
+        "id": "pubmed_36335924",
+        "title": "Dermatological Conditions of the Breast.",
+        "content": "There are many dermatologic conditions that can involve the skin of the breast including malignancy, infections, and inflammatory conditions. These are summarized here including presentation and management options."
+      },
+      {
+        "rank": 7,
+        "score": 0.7655298709869385,
+        "id": "pubmed_36300433",
+        "title": "A large, purple swelling of the breast.",
+        "content": "A 52-year-old female presented with a large mass in the left breast. After analysis with ultrasound and histological biopsy of the tumor a malignant phyllodestumor was diagnosed. The patient was treated with mastectomy of the left breast."
+      },
+      {
+        "rank": 8,
+        "score": 0.7629099488258362,
+        "id": "pubmed_36505863",
+        "title": "Case Report Small intestinal metastatic breast cancer A case report and literature review.",
+        "content": "Breast cancer is considered a malignant tumor with the highest incidence among women and is prone to develop distant metastasis. Small intestinal metastasis of breast cancer, however, is relatively rare. This case report describes a 49-year-old Chinese female patient who presented with small intestinal obstruction and was diagnosed with lobular breast cancer with small intestinal and contralateral breast metastasis. Clinical manifestations, clinicopathological features and potential mechanisms o..."
+      },
+      {
+        "rank": 9,
+        "score": 0.7628347873687744,
+        "id": "pubmed_36727117",
+        "title": "Breast metastases from primary tumor of the urinary tract case series.",
+        "content": "Breast metastasis from urological tract is exceptional, with a few sporadic cases reported in the literature. They can be confused with a primary breast cancer, especially in patients without clinical history, leading to an inappropriate and invasive treatment. Therefore, we have summarized some characteristics of metastatic breast tumors through this retrospective study."
+      },
+      {
+        "rank": 10,
+        "score": 0.7608453631401062,
+        "id": "pubmed_36316836",
+        "title": "Steroid refractory granulomatous mastitis treated by top surgery A case report.",
+        "content": "Granulomatous mastitis (GM) is a rare inflammatory disease and the presentation mimics infectious mastitis or breast cancer. The disease usually develops at the unilateral breast in women with breast-feeding history at their child-bearing age. Systemic steroids had been proposed as the first-line treatment, the combination of surgery was also recommended for complicated disease. However, recurrence might still happen in some rare cases. Few studies have addressed the management of such difficult..."
+      },
+      {
+        "rank": 11,
+        "score": 0.7576802968978882,
+        "id": "Gynecology_Novak_7836",
+        "title": "Gynecology_Novak",
+        "content": "Growth Patterns The growth potential of breast cancer and the patient\u2019s resistance to malignancy vary widely with the individual and the stage of disease. The doubling time of breast cancer ranges from several weeks for rapidly growing tumors to months or years for slowly growing lesions. If the doubling time of a breast tumor were constant and a tumor originated from one cell, a doubling time of 100 days would result in a 1-cm tumor in about 8 years (Fig. 40.1) (25). During the preclinical phas..."
+      },
+      {
+        "rank": 12,
+        "score": 0.757365345954895,
+        "id": "pubmed_36534272",
+        "title": "Tumor characteristics, therapy, and prognosis in young breast cancer patients \u2264 35 years.",
+        "content": "Young breast cancer patients aged 35 years and younger are a small group of women who tend to present at high-risk form of the disease. More analysis of the data on tumor characteristics, treatment, and survival is necessary to help improving treatment and outcome. In this retrospective study, we compared the clinical and tumor characteristics, the treatments, and the survival of 257 women aged \u2264 35 years, with 6566 women aged 50-69 years. We used a registry-based data of patients with invasive,..."
+      },
+      {
+        "rank": 13,
+        "score": 0.7566778659820557,
+        "id": "pubmed_36641655",
+        "title": "Prognostic factors in inflammatory breast cancer A single-center study.",
+        "content": "Previous studies have shown that poor prognostic indicators of inflammatory breast cancer (IBC) include younger age at diagnosis, poorer tumor grade, negative estrogen receptor, lesser degree of pathological response in the breast and lymph nodes. This is a retrospective study conducted over a period of 12 years between January 2008 and December 2019 at the medical oncology department at Habib Bourguiba University Hospital in Sfax. We included in this study women with confirmed IBC. We excluded ..."
+      },
+      {
+        "rank": 14,
+        "score": 0.7560912370681763,
+        "id": "pubmed_36381742",
+        "title": "A Case of a Female Patient Presenting With Idiopathic Granulomatous Mastitis With Superimposed Enterococcus Avium Infection.",
+        "content": "Idiopathic granulomatous mastitis (IGM) is defined as an uncommon, benign, chronic inflammatory disease of unknown etiology that affects the breast and can mimic breast cancer. It usually manifests as a solid, ill-defined breast lump in postpartum women of reproductive age. Furthermore, because it lacks a particular radiographic finding, core biopsy and histology are the only ways to make a conclusive diagnosis. There is no agreement on the best way to treat IGM. Ideally, a multidisciplinary app..."
+      },
+      {
+        "rank": 15,
+        "score": 0.7554631233215332,
+        "id": "pubmed_36628009",
+        "title": "Bilateral Pleural Effusion Revealing a Rare Breast Tumor A Case Report.",
+        "content": "The most common tumors causing pleural metastasis in women are gynecological cancers, with breast cancer at the top of the list. However, the revelation of the latter by pleural effusion is rare. We report the case of a 61-year-old woman, with a history of well-controlled asthma since the age of 20, who was initially consulted for dyspnea stage III of the Modified Medical Research Council score (mMRC). Chest X-ray showed moderate bilateral pleural effusion. The pleural biopsy concluded with a pl..."
+      },
+      {
+        "rank": 16,
+        "score": 0.754948616027832,
+        "id": "pubmed_36798680",
+        "title": "Intermammary breast cancer A rare case of cancer with origin of breast cells in an unusual location.",
+        "content": "The most common type of cancer among the female population is breast cancer. The most common site for the occurrence of breast cancer is the upper outer quadrant the upper inner quadrant is the second site, and both the lower outer and the lower inner quadrants are in the third place. This problem is rarely seen in the central portion. Intermammary metastasis due to breast cancer is an infrequent finding. This article presents a 62-year-old lady who presented to the surgical ward with intermamma..."
+      },
+      {
+        "rank": 17,
+        "score": 0.7548240423202515,
+        "id": "pubmed_36510266",
+        "title": "Multiple receptor conversions during the course of metastatic breast cancer therapy a case report and review of the literature.",
+        "content": "Adjuvant systemic therapy decreases recurrence and death from breast cancer, but late relapse still occurs. Therapeutic decisions are based heavily on receptor tissue characterization. Even though the vast majority of metastatic sites do not have receptor conversions, they can occur at the time of metastasis andor during the course of treatment. However, multiple receptor conversions are uncommon. We present an unusual case of a Caucasian patient originally diagnosed with an estrogen receptor-po..."
+      },
+      {
+        "rank": 18,
+        "score": 0.7547125220298767,
+        "id": "pubmed_36259855",
+        "title": "Noninflammatory presentation of cutaneous breast cancer a retrospective case series at a single academic institution with review of the literature.",
+        "content": "Breast cancer with skin involvement is an uncommon clinical presentation of this malignancy. Breast cancer overall has a relatively high mortality rate and wide variety of presentations, making skin involvement by breast cancer a necessary consideration in the differential diagnosis for many types of breast lesions. A retrospective review of our own small academic dermatology outpatient clinic, between August 2006 and January 2020, found four cases of noninflammatory breast cancer with skin invo..."
+      },
+      {
+        "rank": 19,
+        "score": 0.7542917132377625,
+        "id": "Surgery_Schwartz_3677",
+        "title": "Surgery_Schwartz",
+        "content": "/ 552Pathology of Proliferative Disorders Without Atypia / 553Pathology of Atypical Proliferative Diseases / 553Treatment of Selected Benign Breast Disorders and Diseases / 554Risk Factors for Breast Cancer555Hormonal and Nonhormonal Risk Factors / 555Risk Assessment Models / 555Risk Management / 556BRCA Mutations / 558Epidemiology and Natural History of Breast Cancer561Epidemiology / 561Natural History / 562Histopathology of Breast Cancer563Carcinoma In Situ / 563Invasive Breast Carcinoma / 565..."
+      },
+      {
+        "rank": 20,
+        "score": 0.7536997199058533,
+        "id": "pubmed_36477065",
+        "title": "Orbital metastases of breast carcinoma.",
+        "content": "Orbital metastases, although rare, originate from systemic breast cancer in up to 35% of patients. Metastases more commonly arise from invasive lobular carcinomas than from invasive ductal carcinomas. Due to the diagnostic challenge of determining the primary site for the metastases, immunohistochemistry is essential. Clinical and radiological information are usually insufficient. This disease typically progresses quickly and has a poor prognosis. We report the case of a 55-year-old female who p..."
+      }
+    ]
+  },
+  "q6": {
+    "question": "Which histological subtype of breast cancer is most commonly associated with BRCA1 mutations?",
+    "full_question": {
+      "id": "q6",
+      "question": "Which histological subtype of breast cancer is most commonly associated with BRCA1 mutations?",
+      "options": {
+        "A": "Invasive lobular carcinoma",
+        "B": "Tubular carcinoma",
+        "C": "Triple-negative (basal-like) breast cancer",
+        "D": "Mucinous carcinoma"
+      },
+      "answer": "C"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.7877698540687561,
+        "id": "Pathology_Robbins_4409",
+        "title": "Pathology_Robbins",
+        "content": "age of onset, and susceptibility to other types of cancers differ among the many BRCA1 and BRCA2 germ-line mutations, but most carriers develop breast cancer by the age of 70 years, as compared to about 12% of women with an average risk of breast cancer. For unclear reasons, BRCA2 mutations are primarily associated with ER-positive tumors, whereas BRCA1 mutations show a strong association with triple-negative cancers ("
+      },
+      {
+        "rank": 2,
+        "score": 0.7847112417221069,
+        "id": "pubmed_36410343",
+        "title": "Pathology of Breast Cancer Subtypes, Receptors, Biologic Markers, and Staging.",
+        "content": "Although the normal anatomy of the breast is relatively simple, a myriad of hyperplastic, atypical, and frankly malignant processes exist. Though a histologic continuum exists, the natural progression of breast disease is not always on a continuum. Moreover, the distinction between hyperplastic, atypical, and frankly malignant processes rests on subtle qualitative and sometimes quantitative features. The treatment of breast-related lesions has always been, and continues to be, a multidisciplinar..."
+      },
+      {
+        "rank": 3,
+        "score": 0.7843648195266724,
+        "id": "pubmed_36435613",
+        "title": "Breast Cancer Pathology in the Era of Genomics.",
+        "content": "The era of genomic medicine provides an opportunity for pathologists to offer greater detail about the molecular underpinnings of a patients cancer and thereby more targeted therapeutic options. In this review article, the role of genomics in breast cancer pathology is discussed, as it pertains to risk management, classification of special tumor types, predictive and prognostic testing, identification of actionable therapeutic targets, and monitoring for disease progression or development of tre..."
+      },
+      {
+        "rank": 4,
+        "score": 0.782467246055603,
+        "id": "pubmed_36482272",
+        "title": "An update on the pathological classification of breast cancer.",
+        "content": "Breast cancer (BC) is a heterogeneous disease, encompassing a diverse spectrum of tumours with varying morphological, biological, and clinical phenotypes. Although tumours may show phenotypic overlap, they often display different biological behaviour and response to therapy. Advances in high-throughput molecular techniques and bioinformatics have contributed to improved understanding of BC biology and refinement of molecular taxonomy with the identification of specific molecular subclasses. Alth..."
+      },
+      {
+        "rank": 5,
+        "score": 0.7806607484817505,
+        "id": "pubmed_36613648",
+        "title": "Determination of BRCAness Phenotype in Breast Tumors for the Appointment of Neoadjuvant Chemotherapy Based on Platinum and Taxanes.",
+        "content": "The concept of BRCAness was developed because of similarities between sporadic and hereditary breast cancer. BRCAness defines the pathogenesis and treatment sensitivity of many types of cancer, as well as the presence of a defect in the homologous recombination repair of tumor cells simulating the loss of"
+      },
+      {
+        "rank": 6,
+        "score": 0.7803861498832703,
+        "id": "pubmed_36442995",
+        "title": "Differential involvement of germline pathogenic variants in breast cancer genes between DCIS and low-grade invasive cancers.",
+        "content": "To investigate frequency of germline pathogenic variants (PVs) in women with ductal carcinoma in situ (DCIS) and grade 1 invasive breast cancer (G1BC). We undertook 30311 (9.6%) with DCIS and 16392 with G1BC (4.1%) had a DCIS is more likely to be associated with both"
+      },
+      {
+        "rank": 7,
+        "score": 0.7803602814674377,
+        "id": "pubmed_36581488",
+        "title": "Ovarian cancer onset across different",
+        "content": "To evaluate the role of different specific types of germline breast cancer susceptibility This was a multicenter, international, retrospective cohort of 474 patients diagnosed with recurrent or newly diagnosed high grade serous ovarian cancer, with known germline mutations in Excluding the 29 patients with a splicing mutation, 474 patients were enrolled 309 (65.2%) with frameshift mutations, 102 (21.5%) with nonsense mutations, and 63 (13.3%) with missense mutations. The Different types of germl..."
+      },
+      {
+        "rank": 8,
+        "score": 0.7800592184066772,
+        "id": "pubmed_36326735",
+        "title": "Receipt of Bilateral Mastectomy Among Women With Hereditary Breast Cancer.",
+        "content": "This case series study examines differences in surgical treatment among adult females with invasive breast cancer who have pathogenic or likely pathogenic variants in genes with high vs moderate breast cancer penetrance."
+      },
+      {
+        "rank": 9,
+        "score": 0.7791707515716553,
+        "id": "pubmed_36741700",
+        "title": "Assessing the pathogenicity of",
+        "content": "Breast cancer (BC) is the leading cause of cancer-related death in women worldwide. Pathogenic variants in BRCA1 and BRCA2 genes account for approximately 50% of all hereditary BC, with 60-80% of patients characterized by Triple Negative Breast Cancer (TNBC) at an early stage phenotype. The identification of a pathogenic BRCA12 variant has important and expanding roles in risk-reducing surgeries, treatment planning, and familial surveillance. Otherwise, finding unclassified Variants of Unknown S..."
+      },
+      {
+        "rank": 10,
+        "score": 0.7790592312812805,
+        "id": "pubmed_36749285",
+        "title": "The extreme phenotype approach applied to male breast cancer allows the identification of rare variants of ATR as potential breast cancer susceptibility alleles.",
+        "content": "In oncogenetics, some patients could be considered as extreme phenotypes, such as those with very early onset presentation or multiple primary malignancies, unusually high numbers of cancers of the same spectrum or rare cancer types in the same parental branch. For these cases, a genetic predisposition is very likely, but classical candidate gene panel analyses often and frustratingly remains negative. In the framework of the EX"
+      },
+      {
+        "rank": 11,
+        "score": 0.7775846123695374,
+        "id": "pubmed_36230639",
+        "title": "Mutation Patterns in Portuguese Families with Hereditary Breast and Ovarian Cancer Syndrome.",
+        "content": "Germline pathogenic variants in the Breast Cancer Genes 1 ("
+      },
+      {
+        "rank": 12,
+        "score": 0.7767313122749329,
+        "id": "pubmed_36410352",
+        "title": "Genetics of Breast Cancer Risk Models, Who to Test, and Management Options.",
+        "content": "Genetic testing plays an important role in assessing breast cancer risk and often the risk of other types of cancers. Accurate risk assessment and stratification represents a critical element of identifying who is best served by increased surveillance and consideration of other prevention or treatment options while also limiting overtreatment and unnecessary testing. The indications for testing will likely continue to expand, and ideally, more women with a genetic predisposition to breast cancer..."
+      },
+      {
+        "rank": 13,
+        "score": 0.7745829224586487,
+        "id": "pubmed_36544278",
+        "title": "Genetic testing women with newly diagnosed breast cancer What criteria are the most predictive of a positive test",
+        "content": "Knowledge of pathogenic variants in cancer-predisposing genes is important when making breast cancer treatment decisions, but genetic testing is not universal and criteria must be met to qualify for genetic testing. The objective of this study was to evaluate the pathogenic variant yield for nine cancer predisposition genes by testing criteria, singly and in combination. Women diagnosed with breast cancer between June 2013 and May 2018 were recruited from four centers in Toronto, Canada. Partici..."
+      },
+      {
+        "rank": 14,
+        "score": 0.7740553021430969,
+        "id": "pubmed_36435611",
+        "title": "Systemic Therapy for Hereditary Breast Cancers.",
+        "content": "Approximately 5% to 10% of all breast cancers are hereditary many of which are caused by pathogenic variants in genes required for homologous recombination, including BRCA1 and BRCA2. Here we discuss systemic treatment for such breast cancers, including approved chemotherapeutic approaches and also targeted treatment approaches using poly-(ADP ribose) polymerase inhibitors. We also discuss experimental approaches to treating hereditary breast cancer, including new small molecule DNA repair inhib..."
+      },
+      {
+        "rank": 15,
+        "score": 0.7737465500831604,
+        "id": "pubmed_36482269",
+        "title": "Next-generation sequencing in breast pathology real impact on routine practice over a decade since its introduction.",
+        "content": "The diagnosis, histomolecular classes of breast cancers (luminal A, luminal B, HER2-enriched, and basal-like), and accurate prediction of prognosis are commonly determined using morphological and phenotypical analyses in clinical practice worldwide. Therapeutic strategies are mostly based on the disease stage and molecular subclasses of breast cancer. Targeted therapies, such as anti-HER2s, poly-ADP ribose polymerase inhibitors or, to a lesser extent, phosphatidylinositol 3 kinase inhibitors, ha..."
+      },
+      {
+        "rank": 16,
+        "score": 0.7735782861709595,
+        "id": "Surgery_Schwartz_3799",
+        "title": "Surgery_Schwartz",
+        "content": "Jul 19;92(14):1126-1135.hormone receptor negative, and have a triple receptor negative (immunohistochemical profile: ER-negative, PR-negative, and HER2-negative) or basal phenotype (based on gene expression profiling). BRCA1-associated breast cancers have a number of distinguishing clinical features, such as an early age of onset compared with sporadic cases; a higher prevalence of bilateral breast cancer; and the presence of associated cancers in some affected individuals, specifically ovarian ..."
+      },
+      {
+        "rank": 17,
+        "score": 0.7732336521148682,
+        "id": "pubmed_36232564",
+        "title": "Germline Variants in 32 Cancer-Related Genes among 700 Chinese Breast Cancer Patients by Next-Generation Sequencing A Clinic-Based, Observational Study.",
+        "content": "Breast cancer (BC) is associated with hereditary components, and some deleterious germline variants have been regarded as effective therapeutic targets. We conducted a clinic-based, observational study to better understand the distribution of deleterious germline variants and assess any clinicopathological predictors related to the variants among Chinese BC patients using a 32 cancer-related genes next-generation sequencing panel. Between November 2020 and February 2022, a total of 700 BC patien..."
+      },
+      {
+        "rank": 18,
+        "score": 0.7732328176498413,
+        "id": "Gynecology_Novak_7205",
+        "title": "Gynecology_Novak",
+        "content": "Although there are some con\ufb02icting data, the behavior of breast cancers arising in women with germline mutations in BRCA1 or BRCA2 is comparable to the behavior of sporadic tumors (61,73). Women with breast cancer who carry these mutations are at a greatly increased risk of ovarian cancer and a second breast cancer: the lifetime risk of ovarian cancer is 54% for women who have a BRCA1 mutation and 23% for those with a BRCA2 mutation, and for the two groups together, there is an 82% lifetime risk..."
+      },
+      {
+        "rank": 19,
+        "score": 0.7728202939033508,
+        "id": "pubmed_36468263",
+        "title": "Update on triple-negative breast cancers - highlighting subtyping update and treatment implication.",
+        "content": "Triple-negative breast cancer (TNBC) remains a major challenge in breast cancer management. Continuing research in the past years aimed at understanding the biology of this tumour and developing more effective therapeutic options. It is now clear that TNBC is vastly heterogeneous with diverse histological, molecular, immunological profiles and clinical differences. Current evidence suggested the existence of at least four predominant subtypes based on expression profiling across studies. These s..."
+      },
+      {
+        "rank": 20,
+        "score": 0.7695677280426025,
+        "id": "pubmed_36518309",
+        "title": "Adolescent triple-negative breast cancer with germline pathogenic variants in both",
+        "content": "Almost 5-10% of breast cancer results from inherited genetic pathogenic variants. Patients with pathogenic variants in high-penetrance genes such as"
+      }
+    ]
+  },
+  "q7": {
+    "question": "A 60-year-old woman with metastatic ER-positive breast cancer has disease progression on tamoxifen and an aromatase inhibitor. Which of the following represents the next most appropriate treatment strategy?",
+    "full_question": {
+      "id": "q7",
+      "question": "A 60-year-old woman with metastatic ER-positive breast cancer has disease progression on tamoxifen and an aromatase inhibitor. Which of the following represents the next most appropriate treatment strategy?",
+      "options": {
+        "A": "Switch to a different aromatase inhibitor",
+        "B": "Add a CDK4/6 inhibitor to hormonal therapy",
+        "C": "Discontinue all hormonal therapy",
+        "D": "Increase the dose of current aromatase inhibitor"
+      },
+      "answer": "B"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.7927336096763611,
+        "id": "pubmed_36686845",
+        "title": "ESR1 fusions and therapeutic resistance in metastatic breast cancer.",
+        "content": "Breast cancer is the most frequent female malignant tumor, and the leading cause of cancer death in women worldwide. The most common subtype of breast cancer is hormone receptor positive that expresses the estrogen receptor (ER). Targeting ER with endocrine therapy (ET) is the current standard of care for ER positive (ER) breast cancer, reducing mortality by up to 40% in early- stage disease. However, resistance to ET represents a major clinical challenge for ER breast cancer patients leading to..."
+      },
+      {
+        "rank": 2,
+        "score": 0.7881321310997009,
+        "id": "pubmed_36510266",
+        "title": "Multiple receptor conversions during the course of metastatic breast cancer therapy a case report and review of the literature.",
+        "content": "Adjuvant systemic therapy decreases recurrence and death from breast cancer, but late relapse still occurs. Therapeutic decisions are based heavily on receptor tissue characterization. Even though the vast majority of metastatic sites do not have receptor conversions, they can occur at the time of metastasis andor during the course of treatment. However, multiple receptor conversions are uncommon. We present an unusual case of a Caucasian patient originally diagnosed with an estrogen receptor-po..."
+      },
+      {
+        "rank": 3,
+        "score": 0.7844796776771545,
+        "id": "InternalMed_Harrison_6908",
+        "title": "InternalMed_Harrison",
+        "content": "breast cancers in women diagnosed with one cancer is a reasonable surrogate for breast cancer prevention because these are second primaries not recurrences. In this regard, the aromatase inhibitors are all considerably more effective than tamoxifen; however, they are not approved for primary breast cancer prevention. It remains puzzling that agents with the safety 531 profile of raloxifene, which can reduce breast cancer risk by 50% with additional benefits in preventing osteoporotic fracture, a..."
+      },
+      {
+        "rank": 4,
+        "score": 0.7844176888465881,
+        "id": "pubmed_36793604",
+        "title": "Locoregional treatment of",
+        "content": "Approximately 6% of metastatic breast cancers arise"
+      },
+      {
+        "rank": 5,
+        "score": 0.7837912440299988,
+        "id": "pubmed_36358625",
+        "title": "Molecular Mechanisms of Anti-Estrogen Therapy Resistance and Novel Targeted Therapies.",
+        "content": "Breast cancer (BC) is the most commonly diagnosed cancer in women, constituting one-third of all cancers in women, and it is the second leading cause of cancer-related deaths in the United States. Anti-estrogen therapies, such as selective estrogen receptor modulators, significantly improve survival in estrogen receptor-positive (ER) BC patients, which represents about 70% of cases. However, about 60% of patients inevitably experience intrinsic or acquired resistance to anti-estrogen therapies, ..."
+      },
+      {
+        "rank": 6,
+        "score": 0.7835489511489868,
+        "id": "pubmed_36677847",
+        "title": "An Exemestane Derivative, Oxymestane-D1, as a New Multi-Target Steroidal Aromatase Inhibitor for Estrogen Receptor-Positive (ER",
+        "content": "Around 70-85% of all breast cancer (BC) cases are estrogen receptor-positive (ER"
+      },
+      {
+        "rank": 7,
+        "score": 0.7813271284103394,
+        "id": "pubmed_36595649",
+        "title": "Recommendations for the diagnosis and treatment of patients with early breast cancer update 2023.",
+        "content": "In recent years, the therapy of breast carcinoma has evolved at a rapid pace. Therapies from metastasis are pushing into the (neo)adjuvant treatment of breast carcinoma at ever shorter intervals. Biomarker-based therapeutic approaches became more and more en vogue to guide (neo)adjuvant endocrine therapy and chemotherapy. This article reviews recent data developments in early breast cancer (EBC) and current recommendations in diagnosis and therapy."
+      },
+      {
+        "rank": 8,
+        "score": 0.7812409400939941,
+        "id": "pubmed_36233758",
+        "title": "The Present and Future of Clinical Management in Metastatic Breast Cancer.",
+        "content": "Regardless of the advances in our ability to detect early and treat breast cancer, it is still one of the common types of malignancy worldwide, with the majority of patients decease upon metastatic disease. Nevertheless, due to these advances, we have extensively characterized the drivers and molecular profiling of breast cancer and further dividing it into subtypes. These subgroups are based on immunohistological markers (Estrogen Receptor-ER Progesterone Receptor-PR and Human Epidermal Growth ..."
+      },
+      {
+        "rank": 9,
+        "score": 0.7812007665634155,
+        "id": "pubmed_36624321",
+        "title": "Addition of endocrine therapy to dual anti-HER2 targeted therapy in initial treatment of HER2 HR metastatic breast cancer.",
+        "content": "Dual anti-HER2 targeted therapy and chemotherapy is the current first-line standard of care for HER2 metastatic breast cancer (MBC), with endocrine therapy (ET) the backbone of treatment in hormone receptor positive (HR ) disease. The potential ET benefit in HER2 HR patients is unknown as pivotal dual anti-HER2 clinical trials precluded ET use. Real-world data from a multi-site registry of consecutive HER2 MBC patients treated at clinician discretion were examined. Patients that were HR (ER ando..."
+      },
+      {
+        "rank": 10,
+        "score": 0.7809903025627136,
+        "id": "InternalMed_Harrison_6896",
+        "title": "InternalMed_Harrison",
+        "content": "of agonistic effects are also effective. Cases in which tumors shrink in response to tamoxifen withdrawal (as well as withdrawal of pharmacologic doses of estrogens) have been reported. A series of studies with aromatase inhibitors, tamoxifen, and fulvestrant have all shown that the addition of everolimus to the hormonal treatment can lead to significant benefit after progression on the endocrine agent alone. Everolimus (an mTOR inhibitor) in coordination with endocrine agents is now being explo..."
+      },
+      {
+        "rank": 11,
+        "score": 0.7805243134498596,
+        "id": "Surgery_Schwartz_4057",
+        "title": "Surgery_Schwartz",
+        "content": "of their breast cancer (objective response) or long-term stabilization of disease (stable disease) are con-sidered to represent \u201cclinical benefit\u201d and should receive addi-tional endocrine therapy at the time of progression because their chances of a further response remain high.294-296 Patients whose tumors progress de novo on an endocrine agent have a low rate of clinical benefit (<20%) to subsequent endocrine therapy; the choice of endocrine or chemotherapy should be considered based on the di..."
+      },
+      {
+        "rank": 12,
+        "score": 0.7804489135742188,
+        "id": "pubmed_36435608",
+        "title": "The Clinical Utility of ESR1 Mutations in Hormone Receptor-Positive, HER2-Negative Advanced Breast Cancer.",
+        "content": "The estrogen receptor is a key driver of estrogen receptor-positive breast cancers. Accumulating evidence indicates that the ESR1 ligand-binding domain mutations have an important role in acquired endocrine resistance, mainly to treatment with aromatase inhibitors. The identification, monitoring, and targeting of ESR1 mutations is an evolving field of major interest given the potential of improved outcomes in metastatic hormone receptor-positive breast cancers. Herein, the authors review the cur..."
+      },
+      {
+        "rank": 13,
+        "score": 0.7797987461090088,
+        "id": "Pathology_Robbins_4434",
+        "title": "Pathology_Robbins",
+        "content": "Table 19.7 Combining stage and biologic factors may provide a more accurate assessment of outcome. For example, for each cancer stage, the survival of patients with ER-positive cancers is higher than patients with ER-negative cancers 5 years postdiagnosis, especially for Stages III and IV ( Fig. 19.30 ). It must be noted, however, this advantage diminishes with time, with progressively smaller differences being seen at 10 years post-diagnosis and beyond ( Fig. 19.30 ). This narrowing of survival..."
+      },
+      {
+        "rank": 14,
+        "score": 0.7788684964179993,
+        "id": "InternalMed_Harrison_6871",
+        "title": "InternalMed_Harrison",
+        "content": "Adjuvant Therapy The use of systemic therapy after local management of breast cancer substantially improves survival. More than half of the women who would otherwise die of metastatic breast cancer remain disease-free when treated with the appropriate systemic regimen. These data have grown more and more impressive with longer follow-up and more effective regimens."
+      },
+      {
+        "rank": 15,
+        "score": 0.7787042260169983,
+        "id": "pubmed_36422490",
+        "title": "The use of fulvestrant before chemotherapy improves survival in hormone-positive breast cancer a real-life study.",
+        "content": "We aimed to evaluate the efficacy of fulvestrant and its affecting clinical factors, including the optimal sequencing of fulvestrant and chemotherapy in a real-life cohort. The data of 256 metastatic hormone-positive breast cancer patients treated with fulvestrant were evaluated. The association of clinical factors with survival was analyzed with Kaplan-Meier and Cox-regression analyses. The median age of patients was 57 years. More than half of the patients used fulvestrant in later lines and a..."
+      },
+      {
+        "rank": 16,
+        "score": 0.777863085269928,
+        "id": "pubmed_36326972",
+        "title": "Long-Term Outcome of Sustained Endocrine Monotherapy for Elderly Breast Cancer Patients.",
+        "content": "Among elderly breast cancer patients, endocrine therapy may be chosen as definitive treatment by patients or physicians. This study investigated the efficacy of endocrine monotherapy (ET) in terms of avoidance of invasive local treatment. Elderly patients (\u226570 years) with a diagnosis of estrogen receptor-positive breast cancer who underwent ET between 2008 and 2015 were identified through the Netherlands Cancer Registry. The primary outcome was the cumulative risk of undergoing invasive local tr..."
+      },
+      {
+        "rank": 17,
+        "score": 0.7776403427124023,
+        "id": "pubmed_36362392",
+        "title": "Extended Adjuvant Endocrine Treatment in Luminal Breast Cancers in the Era of Genomic Tests.",
+        "content": "In patients with early-stage endocrine receptor-positive (ER) breast cancer (BC), adjuvant endocrine therapy (ET) for 5 years is the standard of care. However, for some patients, the risk of recurrence remain high for up to 15 years after diagnosis and extended ET beyond 5 years may be a reasonable option. Nevertheless, this strategy significantly increases the occurrence of side effects. Here we summarize the available evidence from randomized clinical trials on the efficacy and safety profile ..."
+      },
+      {
+        "rank": 18,
+        "score": 0.7773476839065552,
+        "id": "pubmed_36207823",
+        "title": "Adherence to adjuvant hormonal therapy in localised breast cancer.",
+        "content": "Hormonal therapies are the cornerstone of systemic adjuvant treatment of oestrogen receptor (ER) positive breast cancer. The full benefit of this treatment is obtained with long-term adherence. However, discontinuation of hormonal therapy is common. Factors associated with non-compliance to therapy are complex and worth of detailed evaluation. A retrospective analysis of medical records of 284 early ER-positive breast cancer patients prescribed adjuvant hormonal therapy during a 5-year period in..."
+      },
+      {
+        "rank": 19,
+        "score": 0.7770709991455078,
+        "id": "InternalMed_Harrison_6881",
+        "title": "InternalMed_Harrison",
+        "content": "shown superiority for aromatase inhibitors over tamoxifen alone in the adjuvant setting, although tamoxifen appears essentially equivalent in women who are obese and therefore presumably have higher endogenous concentrations of estrogen. Unfortunately the optimal plan is unclear. Tamoxifen for 5 years followed by an aromatase inhibitor, the reverse strategy, or even switching to an aromatase inhibitor after 2\u20133 years of tamoxifen has been shown to be better than tamoxifen alone. Continuation of ..."
+      },
+      {
+        "rank": 20,
+        "score": 0.7765529751777649,
+        "id": "Pharmacology_Katzung_6015",
+        "title": "Pharmacology_Katzung",
+        "content": "Breast cancer was the first neoplasm shown to be responsive to hormonal manipulation. Tamoxifen is beneficial in postmenopausal women when used alone or in combination with cytotoxic chemotherapy. The present recommendation is to administer tamoxifen for 5 years of continuous therapy after surgical resection. Longer durations of tamoxifen therapy do not appear to offer additional clinical benefit. Postmenopausal women who complete 5 years of tamoxifen therapy should be placed on an aromatase inh..."
+      }
+    ]
+  },
+  "q8": {
+    "question": "What is the primary purpose of sentinel lymph node biopsy in early-stage breast cancer?",
+    "full_question": {
+      "id": "q8",
+      "question": "What is the primary purpose of sentinel lymph node biopsy in early-stage breast cancer?",
+      "options": {
+        "A": "To determine the need for adjuvant systemic therapy",
+        "B": "To stage the axilla and guide decisions about axillary lymph node dissection",
+        "C": "To identify the primary site of distant metastases",
+        "D": "To determine breast cancer molecular subtype"
+      },
+      "answer": "B"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.7540249824523926,
+        "id": "pubmed_36723901",
+        "title": "Inguinal Sentinel Lymph Node in a Patient With Recurrent Breast Cancer.",
+        "content": "Sentinel lymph node biopsy is the standard of care for axillary staging in early, clinically node-negative breast cancer. The lymphatic pathways could be altered after receiving axillary treatments such as radiation andor axillary lymph node dissection. We report a case of inguinal and contralateral axilla SLNs in breast cancer recurrence."
+      },
+      {
+        "rank": 2,
+        "score": 0.7528876662254333,
+        "id": "pubmed_36299373",
+        "title": "The role of radiotherapy in the management of nodal disease in breast cancer.",
+        "content": "The management of nodal disease in breast cancer has evolved over the last two decades. With minimalist surgical approaches for early breast cancers becoming commonplace, the question of whether radiation can replace surgery to reduce morbidity is an important question in this population, as decision making has become more complex. In more advanced disease, and in patients with significant high-risk clinical andor pathological features, the dilemma of who should receive regional nodal irradiatio..."
+      },
+      {
+        "rank": 3,
+        "score": 0.7488245964050293,
+        "id": "pubmed_36723261",
+        "title": "Anatomical site and size of sentinel lymph node metastasis predicted additional axillary tumour burden and breast cancer survival.",
+        "content": "Sentinel lymph node (SLN) biopsy is the current standard assessment for tumour burden in axillary lymph node (ALN). However, not all SLN patients have ALN metastasis. The prognostic implication of SLN features is not clear. We aimed to evaluate predictive factors for ALN metastasis and the clinical value of SLN features. Total 228 SLN and 228 SLN- (with matched year and grade) cases were included. Clinicopathologic features in SLN, ALN and primary tumours, treatment data and survival data were a..."
+      },
+      {
+        "rank": 4,
+        "score": 0.7474026679992676,
+        "id": "pubmed_36702672",
+        "title": "Axillary lymph node dissection Dead or still alive",
+        "content": "Although sentinel lymph node biopsy is now the primary method of axillary staging and is therapeutic for patients with limited nodal disease, axillary lymph node dissection (ALND) is still necessary for staging in groups where sentinel lymph node biopsy has not been proven to be accurate and to maintain local control in those with a heavy axillary tumor burden. Additionally, newer approaches to systemic therapy tailored to risk level sometimes necessitate knowledge of the number of involved axil..."
+      },
+      {
+        "rank": 5,
+        "score": 0.7468990683555603,
+        "id": "pubmed_36642957",
+        "title": "Axillary staging in node-positive breast cancer converting to node negativity through neoadjuvant chemotherapy Current evidence and perspectives.",
+        "content": "Over the recent years, axillary staging of initially node-positive breast cancer patients converting to clinical node negativity after neoadjuvant chemotherapy has seen rapid changes. This narrative review aims to give a contemporary overview over published evidence and clinical practice, and thus provide some guidance to the surgical community in the process of re-evaluating and re-shaping surgical practice. The search strategy aimed at finding relevant studies. Only articles in English were co..."
+      },
+      {
+        "rank": 6,
+        "score": 0.7460311651229858,
+        "id": "pubmed_36270029",
+        "title": "Reporting of Surgically Removed Lymph Nodes for Breast Tumors Recommendations From the International Collaboration on Cancer Reporting.",
+        "content": "The International Collaboration on Cancer Reporting (ICCR), supported by major pathology and cancer organizations, aims at the standardization of evidence-based pathology reporting of different types of cancers, with the inclusion of all parameters deemed to be relevant for best patient care and future data collection. Lymph node metastasis is one of the most important prognostic factors in breast cancer. To produce a histopathology reporting guide by a panel of recognized experts from the field..."
+      },
+      {
+        "rank": 7,
+        "score": 0.7458123564720154,
+        "id": "Surgery_Schwartz_3950",
+        "title": "Surgery_Schwartz",
+        "content": "traditionally been an important determinant in staging and prognosis for women with early stage breast cancer. Historically, axillary lymph node dis-section (ALND) was utilized for axillary staging and regional control by removing involved lymph nodes. Randomized tri-als evaluating immediate ALND over ALND performed in a delayed fashion once clinically palpable axillary disease became evident have not shown any detriment in survival.9,239 With increased mammographic screening and detection of sm..."
+      },
+      {
+        "rank": 8,
+        "score": 0.7431311011314392,
+        "id": "pubmed_36435614",
+        "title": "Surgical Management of the Axilla for Breast Cancer.",
+        "content": "This review discusses the contemporary surgical management of the axilla in patients with breast cancer. Surgical paradigms are highlighted by clinical nodal status at presentation and treatment approach, including upfront surgery and neoadjuvant systemic therapy settings. This review focuses on the increasing opportunities for de-escalating the extent of axillary surgery in the era of sentinel lymph node biopsy, while also reviewing the remaining indications for axillary clearance with axillary..."
+      },
+      {
+        "rank": 9,
+        "score": 0.7428525686264038,
+        "id": "Gynecology_Novak_7864",
+        "title": "Gynecology_Novak",
+        "content": "Axillary lymph node status and the number of involved nodes are the most important prognostic indicators for patients with primary breast cancer (66). Axillary lymphadenectomy traditionally was used to detect and quantify the extent of nodal metastasis (67). Before the introduction of sentinel lymph node dissection in the 1990s, axillary lymph node dissection was performed routinely on all patients with early breast cancer. Although axillary dissection is associated with a very low risk of regio..."
+      },
+      {
+        "rank": 10,
+        "score": 0.7426577806472778,
+        "id": "pubmed_36687257",
+        "title": "Predictive Factors for Unnecessary Axillary Dissection According to SLN Metastasis in T1, T2 Stage Breast Cancer.",
+        "content": "The axillary nodes status is essential in determining the treatment algorithm according to complete clinical staging. Unnecessary axillary lymph node dissection (ALND) has been prevented after sentinel lymph node biopsy (SLNB) has occurred in current practice. However, approximately half of patients with positive SLNB do not have axillary metastatic lymph nodes. Our study aims to predict unnecessary ALND in patients with SLN metastases by evaluating the patients clinicopathological data. In tota..."
+      },
+      {
+        "rank": 11,
+        "score": 0.7406132221221924,
+        "id": "Surgery_Schwartz_3899",
+        "title": "Surgery_Schwartz",
+        "content": "in 4\u20139 axillary lymph nodes; or positive ipsilateral internal mammary lymph nodes by imaging in the absence of axillary lymph node metastasesMetastases in 4\u20139 axillary lymph nodes (at least one tumor deposit larger than 2.0 mm)Metastases in clinically detected internal mammary lymph nodes with or without microscopic confirmation; with pathologically negative axillary nodesMetastases in 10 or more axillary lymph nodes;or in infraclavicular (Level III axillary) lymph nodes;or positive ipsilateral ..."
+      },
+      {
+        "rank": 12,
+        "score": 0.7399511933326721,
+        "id": "Gynecology_Novak_7805",
+        "title": "Gynecology_Novak",
+        "content": "The standard screening modalities for detection of breast cancer include yearly mammography and physical examination. Tissue diagnosis is achieved using fine-needle aspiration cytology (FNAC) or core needle biopsy (CNB). Open biopsy is performed if FNAC or CNB results are equivocal or discordant with the clinical findings. The combination of segmental mastectomy (with negative surgical margins), axillary lymph node dissection, and postoperative radiation therapy has the same overall survival com..."
+      },
+      {
+        "rank": 13,
+        "score": 0.7391408681869507,
+        "id": "pubmed_36326392",
+        "title": "The validity and clinical utility of axillary ultrasonography-guided fine needle aspiration biopsy in detection of nodal metastasis in early-stage breast cancer patients a retrospective single-center experience.",
+        "content": "Assessing the validity and clinical utility of axillary ultrasonography (AUS)-guided fine needle aspiration biopsy (FNAB) in detection of nodal metastasis during preoperative axillary investigation in comparison to the histopathologic diagnosis in early-stage breast cancer. A total of 279 operated primary breast cancer patients (age 55.3 \u00b1 12.8, ranged 17-90 years) were included. Data on AUS findings at the time of initial diagnosis (first look AUS), second-look AUS findings performed by the bre..."
+      },
+      {
+        "rank": 14,
+        "score": 0.7378593683242798,
+        "id": "Surgery_Schwartz_3887",
+        "title": "Surgery_Schwartz",
+        "content": "radiographic, and pathologic findings should be in concordance. If the biopsy findings do not concur with the clinical and radiographic findings, the multidisciplinary team (including clinician, radiologist, and pathologist) should review the findings and decide whether or not to recommend an image-guided or open biopsy to be certain that the target lesion has been adequately sampled for diagnosis.BREAST CANCER STAGING AND BIOMARKERSBreast Cancer StagingThe clinical stage of breast cancer is det..."
+      },
+      {
+        "rank": 15,
+        "score": 0.737595796585083,
+        "id": "Gynecology_Novak_7867",
+        "title": "Gynecology_Novak",
+        "content": "with T1 and T2 breast cancer who underwent sentinel lymph node dissection followed by axillary lymph node dissection, the sentinel node was successfully identified in 100 patients (93.5%) (73). There were no false-negative results, and the sentinel node accurately predicted axillary status in all 100 patients."
+      },
+      {
+        "rank": 16,
+        "score": 0.7371789216995239,
+        "id": "pubmed_36318855",
+        "title": "SENTINEL LYMPH NODES DETECTION METHOD IN BREAST CANCER.",
+        "content": "In 2020 more than 2.2 million cases of breast cancer were registered, and these figures indicate that this disease is very widespread. Lymphatic metastasis is one of the most important causes of local recurrence of breast cancer and is unfavorable factor of prognosis. The purpose of the work is to improve the algorithm of intraoperative diagnosis of the sentinel lymph node in patients with breast cancer. Between 2009 and 2016, 400 patients with T1-T3N0M0 breast cancer were operated at the Odesa ..."
+      },
+      {
+        "rank": 17,
+        "score": 0.7369873523712158,
+        "id": "Pharmacology_Katzung_6012",
+        "title": "Pharmacology_Katzung",
+        "content": "The management of primary breast cancer has undergone a remarkable evolution as a result of major efforts at early diagnosis (through encouragement of self-examination as well as through the use of cancer detection centers) and the implementation of combined modality approaches incorporating systemic chemotherapy as an adjuvant to surgery and radiation therapy. Women with stage I disease (small primary tumors and negative axillary lymph node dissections) are currently treated with surgery alone,..."
+      },
+      {
+        "rank": 18,
+        "score": 0.7364766597747803,
+        "id": "Gynecology_Novak_7841",
+        "title": "Gynecology_Novak",
+        "content": "N2b Metastases only in clinically detected ipsilateral internal mammary nodes and in the absence of clinically evident level I, II axillary lymph node metastases N3 Metastases in ipsilateral infraclavicular (level III axillary) lymph node(s) with or without level I, II axillary lymph node involvement; or in clinically detected ipsilateral internal mammary lymph nodes and with clinically evident level I, II axillary lymph node metastases; or metastases in ipsilateral supraclavicular lymph node(s)..."
+      },
+      {
+        "rank": 19,
+        "score": 0.7362076640129089,
+        "id": "pubmed_36410356",
+        "title": "Operative Management in Stage IV Breast Cancer.",
+        "content": "Traditionally, surgical therapy for primary breast lesions in stage IV breast cancer has been reserved for palliation. Several retrospective studies have suggested a possible survival benefit with surgical resection of the primary tumor in patients with distant metastases. However, evidence from prospective, randomized controlled trials suggest that locoregional control provides no clear survival advantage for patients with stage IV breast cancer. Future areas of inquiry include identification o..."
+      },
+      {
+        "rank": 20,
+        "score": 0.7350412607192993,
+        "id": "Surgery_Schwartz_3889",
+        "title": "Surgery_Schwartz",
+        "content": "to include both anatomic and biologic factors161 (Tables 17-10 and 17-11). Koscielny and colleagues demonstrated that tumor size correlates with the presence of axillary lymph node metastases (see Fig. 17-14B). Others have shown an association between tumor size, axillary lymph node metastases, and disease-free survival. One of the most important predictors of 10and 20-year survival rates in breast cancer is the number of axillary lymph nodes involved with metastatic disease. Routine biopsy of i..."
+      }
+    ]
+  },
+  "q9": {
+    "question": "A 55-year-old woman presents with Paget disease of the nipple. What is the most likely underlying pathology?",
+    "full_question": {
+      "id": "q9",
+      "question": "A 55-year-old woman presents with Paget disease of the nipple. What is the most likely underlying pathology?",
+      "options": {
+        "A": "Benign intraductal papilloma",
+        "B": "Underlying ductal carcinoma in situ or invasive carcinoma",
+        "C": "Fibrocystic breast changes",
+        "D": "Localized skin infection"
+      },
+      "answer": "B"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.793972373008728,
+        "id": "pubmed_36226608",
+        "title": "A monolateral pigmented lesion of the nipple.",
+        "content": "Pigmented mammary Pagets disease is a very rare variant of mammary Pagets disease linked to an underlying carcinoma in almost all cases. We present the case of a 62-year-old female patient who came to our attention for the evaluation of a monolateral asymptomatic pigmented lesion of the right nipple, which turned out to be a pigmented mammary Pagets disease unassociated to an underlying malignancy - an extremely rare entity only anecdotally reported in literature. The two main peculiarities of o..."
+      },
+      {
+        "rank": 2,
+        "score": 0.7892082929611206,
+        "id": "pubmed_36262686",
+        "title": "Large Mammary Paget Disease without Underlying Breast Carcinoma.",
+        "content": "Mammary Paget disease is an uncommon type of breast cancer. Redness, scaling, and thickness involving the nipple and areola are common clinical symptoms. Invasive breast cancer was found in nearly 90% of these patients. Only a few cases of mammary Paget disease with no underlying cancer have been described, with a better prognosis. Treatment options include wide excision or mastectomy. However, if the lesion is very extensive, breast reconstruction may be required. We reported a rare case of ext..."
+      },
+      {
+        "rank": 3,
+        "score": 0.7872232794761658,
+        "id": "Gynecology_Novak_7903",
+        "title": "Gynecology_Novak",
+        "content": "Paget\u2019s Disease In the 1870s, Sir James Paget described a nipple lesion similar to eczema and recognized that this nipple change was associated with an underlying breast malignancy (121). The erosion results from invasion of the nipple and surrounding areola by characteristic large cells with irregular nuclei, now called Paget cells. Although the origin of these cells is much debated by pathologists, they are probably extensions of an underlying carcinoma into the major ducts of the nipple\u2013areol..."
+      },
+      {
+        "rank": 4,
+        "score": 0.7849521636962891,
+        "id": "pubmed_36744056",
+        "title": "Invasive breast cancer with Pagets disease A rare case report from a tertiary facility in Northern Tanzania.",
+        "content": "Pagets disease of the breast is a rare pathology resulting from abnormal proliferation of glandular epithelial cells in the nipple-areolar epidermis. The disease is named after James Paget, a pathologist and surgeon, who reported a relationship between a nipple rash and mammary gland tumors in 1874. Early diagnosis may be quite difficult. Histopathology can give the definitive diagnosis and the treatment depends upon the presence or absence of an associated breast lump. The treatment options inc..."
+      },
+      {
+        "rank": 5,
+        "score": 0.7750669121742249,
+        "id": "pubmed_36542569",
+        "title": "Syringomatous Adenoma of the Nipple with Associated Invasive Carcinoma A Case Report.",
+        "content": "Syringomatous adenoma of the nipple is a rare benign infiltrative neoplasm that was first described in 1983. At the time of this writing, a literature search revealed no cases of syringomatous adenoma of the nipple in association with invasive carcinoma of the breast. We report a case of syringomatous adenoma of the nipple in a 40-year old female who also had bilateral invasive ductal carcinoma and ductal carcinoma in situ of the breasts. Syringomatous adenomas of the nipple have been postulated..."
+      },
+      {
+        "rank": 6,
+        "score": 0.7747659683227539,
+        "id": "pubmed_36708338",
+        "title": "Pagets disease of the breast diagnosis and management.",
+        "content": "Pagets disease of the breast typically affects postmenopausal women and is associated with an underlying malignancy. Skin changes are a common presenting symptom, as well as a lump, nipple discharge, pain and changes to the nipple shape. Imaging options include ultrasound for women under the age of 35 years or mammogram and ultrasound for women over the age of 40 years. The definitive diagnostic investigation is a tissue core biopsy. Cases are discussed by a multidisciplinary team to decide on t..."
+      },
+      {
+        "rank": 7,
+        "score": 0.7718818187713623,
+        "id": "pubmed_36633028",
+        "title": "Atypical presentation of male breast cancer.",
+        "content": "Approximately 1% of all breast cancers occur in men. With an annual incidence of 130 cases in the Netherlands, the occurrence of male breast cancer is rare. We report the case of a 72-year-old male who was referred to a breast outpatient clinic for the evaluation of a multinodular skin lesion of the nipple. The nipple lesion was found to be an invasive carcinoma of the breast with neuroendocrine differentiation. Retrospectively, a breast abnormality could be detected on radiologic imaging 2 year..."
+      },
+      {
+        "rank": 8,
+        "score": 0.764444887638092,
+        "id": "Gynecology_Novak_3076",
+        "title": "Gynecology_Novak",
+        "content": "Paget\u2019s Disease of the Extramammary Paget\u2019s disease of the vulva (AIS) was described 27 years after the description Vulva by Sir James Paget of the mammary lesion that now bears his name (141). Some patients with vulvar Paget\u2019s disease have an underlying adenocarcinoma, although the precise frequency is difficult to ascertain."
+      },
+      {
+        "rank": 9,
+        "score": 0.7637724280357361,
+        "id": "pubmed_36300433",
+        "title": "A large, purple swelling of the breast.",
+        "content": "A 52-year-old female presented with a large mass in the left breast. After analysis with ultrasound and histological biopsy of the tumor a malignant phyllodestumor was diagnosed. The patient was treated with mastectomy of the left breast."
+      },
+      {
+        "rank": 10,
+        "score": 0.7636394500732422,
+        "id": "Gynecology_Novak_3429",
+        "title": "Gynecology_Novak",
+        "content": "Cytologic examination of nipple discharge or cyst \ufb02uid rarely is performed. Cytologic examination usually is of no value but may identify malignant cells (178). Negative findings do not rule out cancer, which is more likely in women older than 50 years of age. In any case, the involved duct\u2014and a mass, if present\u2014should be excised (177,178,180,185). Complete histopathologic evaluation of the involved ductal system is the preferred method of diagnosis, and cytologic assessment should not be relie..."
+      },
+      {
+        "rank": 11,
+        "score": 0.7623360753059387,
+        "id": "Pathology_Robbins_4268",
+        "title": "Pathology_Robbins",
+        "content": "Both forms of vulvar carcinoma tend to remain confined to their site of origin for a few years but ultimately invade and spread, usually first to regional lymph nodes. The risk of metastasis correlates with the depth of invasion. As with most carcinomas, outcome is dependent on tumor stage. The overall 5-year survival is 70% to 93% for patients with negative lymph nodes but decreases to 25% to 41% for patients with lymph node metastases. Paget disease is an intraepidermal proliferation of epithe..."
+      },
+      {
+        "rank": 12,
+        "score": 0.7607477903366089,
+        "id": "Pathology_Robbins_4387",
+        "title": "Pathology_Robbins",
+        "content": "Regardless of presenting symptom, the likelihood of malignancy increases with age. For example, the risk of nipple discharge being due to cancer increases from 7% in women younger than 60 years of age to 30% in women older than 60. Similarly, only 10% of palpable masses in women younger than 40 years of age are carcinomas, as compared to 60% in women older than 50. Mammographic screening was introduced in the 1980s as a means to detect early, nonpalpable asymptomatic breast carcinomas before met..."
+      },
+      {
+        "rank": 13,
+        "score": 0.7600047588348389,
+        "id": "Gynecology_Novak_7904",
+        "title": "Gynecology_Novak",
+        "content": "The overall prognosis for patients with this rare form of breast cancer depends on the stage of the underlying malignancy. When an intraductal carcinoma alone is identified, the prognosis remains favorable, whereas patients with infiltrating ductal carcinoma metastatic to the regional lymph nodes have worse outcomes. Traditional treatment was total mastectomy and lymph node dissection, although breast conservation therapy with resection of the tumor and nipple\u2013areolar complex, followed by whole ..."
+      },
+      {
+        "rank": 14,
+        "score": 0.7584465742111206,
+        "id": "Gynecology_Novak_3432",
+        "title": "Gynecology_Novak",
+        "content": "Erosive adenomatosis is a rare benign condition of the nipple that mimics Paget\u2019s disease (187). Patients seek treatment for pruritus, burning, and pain. On clinical examination, the nipple can appear ulcerated, crusting, scaling, indurated, and erythematous. The nipple can be enlarged and more prominent during menstrual cycles (188). The differential diagnosis includes squamous cell carcinoma, psoriasis, contact dermatitis, seborrheic keratosis, adenocarcinoma metastatic to the skin, and unusua..."
+      },
+      {
+        "rank": 15,
+        "score": 0.7572615742683411,
+        "id": "pubmed_36335924",
+        "title": "Dermatological Conditions of the Breast.",
+        "content": "There are many dermatologic conditions that can involve the skin of the breast including malignancy, infections, and inflammatory conditions. These are summarized here including presentation and management options."
+      },
+      {
+        "rank": 16,
+        "score": 0.7560184001922607,
+        "id": "pubmed_36267823",
+        "title": "Multiple asymptomatic papules following breast cancer treatment.",
+        "content": "Acquired lymphangiectasia (AL) represents superficial lymphatic dilatation caused by different processes. It is a consequence of lymphatic damage by an external cause leading to obstruction of local lymphatic drainage.1 We report a case of AL of the breast in a 45-year-old woman mimicking warts."
+      },
+      {
+        "rank": 17,
+        "score": 0.7555580735206604,
+        "id": "pubmed_36254132",
+        "title": "Ectopic breast carcinoma.",
+        "content": "Carcinoma of the accessory breast tissue (CABT) is an extremely rare occurrence, representing 0.3% of all breast malignancies. A 65-year-old, postmenopausal woman was referred to our Breast Clinic complaining of a palpable, growing, and painful mass in her right axilla. Physical examination revealed a palpable tender mass, approximately 3 cm in size, visibly infiltrating the overlying skin area, while physical examination of the breast revealed no palpable lesions. Core biopsy of the mass was pr..."
+      },
+      {
+        "rank": 18,
+        "score": 0.755526065826416,
+        "id": "Pathoma_Husain_331",
+        "title": "Pathoma_Husain",
+        "content": "2. Generally seen in elderly women (average age is > 70 years) VII. EXTRAMAMMARY PAGET DISEASE A. Characterized by malignant epithelial cells in the epidermis of the vulva (Fig. 13.2A) B. Presents as erythematous, pruritic, ulcerated vulvar skin C. Represents carcinoma in situ, usually with no underlying carcinoma 1. Paget disease of the nipple is also characterized by malignant epithelial cells in the epidermis of the nipple, but it is almost always associated with an underlying carcinoma. D. M..."
+      },
+      {
+        "rank": 19,
+        "score": 0.7543566226959229,
+        "id": "Surgery_Schwartz_3741",
+        "title": "Surgery_Schwartz",
+        "content": "lesions Duct involution DilatationDuct ectasiaPeriductal mastitis SclerosisNipple retraction\u2014 Epithelial turnoverEpithelial hyperplasiaEpithelial hyperplasia with atypiaANDI = aberrations of normal development and involution.Reproduced with permission from Mansel RE, Webster D, Sweetland H: Hughes, Mansel & Webster\u2019s Benign Disorders and Diseases of the Breast, 3rd ed. London: Elsevier/Saunders; 2009.Figure 17-10. Fibroadenoma (40x). These benign tumors are typi-cally well circumscribed and are ..."
+      },
+      {
+        "rank": 20,
+        "score": 0.7523614764213562,
+        "id": "Gynecology_Novak_3347",
+        "title": "Gynecology_Novak",
+        "content": "be subtle and difficult to detect in a dense breast. Other mammographic findings suggesting breast cancer are architectural distortion, asymmetric density, skin thickening or retraction, or nipple retraction. Examples of mammographic abnormalities can be found in several electronic sources (46)."
+      }
+    ]
+  },
+  "q10": {
+    "question": "Which of the following factors is most strongly associated with an increased risk of developing breast cancer?",
+    "full_question": {
+      "id": "q10",
+      "question": "Which of the following factors is most strongly associated with an increased risk of developing breast cancer?",
+      "options": {
+        "A": "Early menarche and late menopause",
+        "B": "Multiparity with first pregnancy before age 20",
+        "C": "Regular physical exercise",
+        "D": "Low dietary fat intake"
+      },
+      "answer": "A"
+    },
+    "top_20_results": [
+      {
+        "rank": 1,
+        "score": 0.8212941288948059,
+        "id": "pubmed_36789739",
+        "title": "Variation in second breast cancer risk after primary invasive cancer by time since primary cancer diagnosis and estrogen receptor status.",
+        "content": "In women with previously treated breast cancer, occurrence and timing of second breast cancers have implications for surveillance. The authors examined the timing of second breast cancers by primary cancer estrogen receptor (ER) status in the Breast Cancer Surveillance Consortium. Women who were diagnosed with American Joint Commission on Cancer stage I-III breast cancer were identified within six Breast Cancer Surveillance Consortium registries from 2000 to 2017. Characteristics collected at pr..."
+      },
+      {
+        "rank": 2,
+        "score": 0.8201015591621399,
+        "id": "pubmed_36319046",
+        "title": "Reducing the risk of breast cancer.",
+        "content": "Breast cancer remains the most common female malignancy in the United States. Reducing this cancer burden involves identification of high-risk individuals and personalized risk management. Because coronary artery disease remains the primary cause of death for women, any intervention to reduce breast cancer risk must be weighed against comorbidities and interventions affecting cardiovascular risk reduction. For select women at increased risk for breast cancer, preventive medication can greatly de..."
+      },
+      {
+        "rank": 3,
+        "score": 0.8184318542480469,
+        "id": "pubmed_36338611",
+        "title": "Do prognosis and clinicopathological features differ in young early-stage breast cancer",
+        "content": "Breast cancer is the most frequently detected cancer and the leading cause of cancer-related death in women. Although it is mostly seen in older patients, breast cancer affects women aged 24 to >70 years, with poorer prognosis in young patients. Young age remains a controversial topic in the literature. This study aimed to identify subtype differences and the effect of age on early-stage breast cancer outcomes. A total of 300 consecutive patients underwent surgery between 2011 and 2015 for early..."
+      },
+      {
+        "rank": 4,
+        "score": 0.8181117177009583,
+        "id": "pubmed_36262035",
+        "title": "Breast cancer incidence among women with a family history of breast cancer by relatives age at diagnosis.",
+        "content": "Women with a first-degree family history of breast cancer are often advised to begin screening when they are 10 years younger than the age at which their relative was diagnosed. Evidence is lacking to determine how much earlier they should begin. Using Breast Cancer Surveillance Consortium data on screening mammograms from 1996 to 2016, the authors constructed a cohort of 306,147 women 30-59 years of age with information on first-degree family history of breast cancer and relatives age at diagno..."
+      },
+      {
+        "rank": 5,
+        "score": 0.8177148103713989,
+        "id": "pubmed_36410352",
+        "title": "Genetics of Breast Cancer Risk Models, Who to Test, and Management Options.",
+        "content": "Genetic testing plays an important role in assessing breast cancer risk and often the risk of other types of cancers. Accurate risk assessment and stratification represents a critical element of identifying who is best served by increased surveillance and consideration of other prevention or treatment options while also limiting overtreatment and unnecessary testing. The indications for testing will likely continue to expand, and ideally, more women with a genetic predisposition to breast cancer..."
+      },
+      {
+        "rank": 6,
+        "score": 0.8142799139022827,
+        "id": "pubmed_36780232",
+        "title": "Changes in breast cancer risk and risk factor profiles among U.S.-born and immigrant Asian American women residing in the San Francisco Bay Area.",
+        "content": "Breast cancer incidence rates in women of Asian descent have been increasing in the United States (U.S.) and Asia. In a case-control study of Asian American women from the San Francisco Bay Area, we assessed associations with birthplace and migration-related characteristics and compared risk factors between Asian American and non-Hispanic White women by birthplace and birth cohort. Birthplace and migration-related characteristics were associated with breast cancer risk only among women in the yo..."
+      },
+      {
+        "rank": 7,
+        "score": 0.8139328360557556,
+        "id": "pubmed_36422755",
+        "title": "Estimating the incidence of breast cancer recurrence using administrative data.",
+        "content": "Breast cancer is the most common cancer among women, but most cancer registries do not capture recurrences. We estimated the incidence of local, regional, and distant recurrences using administrative data. Patients diagnosed with stage I-III primary breast cancer in Ontario, Canada from 2013 to 2017 were included. Patients were followed until 31Dec2021, death, or a new primary cancer diagnosis. We used hospital administrative data (diagnostic and intervention codes) to identify local recurrence,..."
+      },
+      {
+        "rank": 8,
+        "score": 0.8104261159896851,
+        "id": "pubmed_36545890",
+        "title": "Reproductive history and breast cancer survival Findings from the African breast cancer-Disparities in outcomes cohort and implications of Africas fertility transition on breast cancer prognosis.",
+        "content": "Reproductive characteristics are known risk factors for breast cancer but, other than recent birth, their role as prognostic factors is less clear, and has not been studied in Sub-Saharan Africa (SSA). In this setting, we examined whether reproductive factors independently influence breast cancer survival in a subset of the African Breast Cancer-Disparities in Outcomes cohort study. In 1485 women with incident breast cancer recruited between 2014 and 2017, we examined birth cohort changes in rep..."
+      },
+      {
+        "rank": 9,
+        "score": 0.8099738359451294,
+        "id": "pubmed_36759097",
+        "title": "Breast Cancer Risk Assessment, Screening, and Primary Prevention.",
+        "content": "This review provides an outline of a risk-based approach to breast cancer screening and prevention. All women should be assessed for breast cancer risk starting at age 18 with identification of modifiable and non-modifiable risk factors. Patients can then be stratified into average, moderate, and high-risk groups with personalized screening and prevention plans. Counseling on breast awareness and lifestyle changes is recommended for all women, regardless of risk category. High-risk individuals m..."
+      },
+      {
+        "rank": 10,
+        "score": 0.8099722266197205,
+        "id": "Surgery_Schwartz_3677",
+        "title": "Surgery_Schwartz",
+        "content": "/ 552Pathology of Proliferative Disorders Without Atypia / 553Pathology of Atypical Proliferative Diseases / 553Treatment of Selected Benign Breast Disorders and Diseases / 554Risk Factors for Breast Cancer555Hormonal and Nonhormonal Risk Factors / 555Risk Assessment Models / 555Risk Management / 556BRCA Mutations / 558Epidemiology and Natural History of Breast Cancer561Epidemiology / 561Natural History / 562Histopathology of Breast Cancer563Carcinoma In Situ / 563Invasive Breast Carcinoma / 565..."
+      },
+      {
+        "rank": 11,
+        "score": 0.8098933100700378,
+        "id": "pubmed_36354368",
+        "title": "Genome-Wide Analysis of Rare Haplotypes Associated with Breast Cancer Risk.",
+        "content": "Numerous common genetic variants have been linked to breast cancer risk, but they only partially explain the total breast cancer heritability. Inference from Nordic population-based twin data indicates rare high-risk loci as the chief determinant of breast cancer risk. Here, we use haplotypes, rather than single variants, to identify rare high-risk loci for breast cancer. With computationally phased genotypes from 181,034 white British women in the UK Biobank, a genome-wide haplotype-breast canc..."
+      },
+      {
+        "rank": 12,
+        "score": 0.8091151714324951,
+        "id": "pubmed_36435650",
+        "title": "Risk factors for breast cancer mortality after ductal carcinoma in situ diagnosis differ from those for invasive recurrence.",
+        "content": "Breast cancer mortality after ductal carcinoma in situ is rare, making it difficult to predict which patients are at risk and to identify whether risk factors for this outcome are the same as those for invasive recurrence. We aimed to identify whether risk factors for invasive recurrences are similar to those for breast cancer death after a diagnosis of pure ductal carcinoma in situ. The Surveillance, Epidemiology, and End Results Program was queried for female patients diagnosed with pure ducta..."
+      },
+      {
+        "rank": 13,
+        "score": 0.8086045980453491,
+        "id": "pubmed_36287308",
+        "title": "Patterns of breast cancer second recurrences in patients after mastectomy.",
+        "content": "Little is known about second recurrences in breast cancer patients, especially in patients with mastectomy. We aimed to determine the risk factors, prevalence and patterns of second recurrence in mastectomy patients after first recurrence. Stage I-III breast cancer patients treated at a tertiary institution from 1st September 2005 to 31st October 2017 and developed first and second recurrences after mastectomy were retrospectively reviewed. We excluded patients with bilateral cancers and patient..."
+      },
+      {
+        "rank": 14,
+        "score": 0.8076925277709961,
+        "id": "Gynecology_Novak_6514",
+        "title": "Gynecology_Novak",
+        "content": "Breast Cancer Breast cancer is a major health concern for menopausal women, as it is the most common cancer in women and the second leading cause of cancer death (56). The lifetime risk of invasive breast cancer for US women is 12%; therefore, any therapies that increase or reduce this risk will have a major impact on women\u2019s health. Risk factors for breast cancer include age, family history, early menarche, late menopause, and prior breast disease, including epithelial atypia and cancer. Risk i..."
+      },
+      {
+        "rank": 15,
+        "score": 0.8076131939888,
+        "id": "Pathology_Robbins_4403",
+        "title": "Pathology_Robbins",
+        "content": "http://ebooksmedicine.net A large number of risk factors for breast cancer have been identified ( Table 19.6 ). Some of the more important risk factors are summarized next. Age and Gender. Breast cancer is rare in women younger than age 25, but increases in incidence rapidly after age 30 ( Fig. 19.26 ); 75% of women with breast cancer are older than 50 years of age, and only 5% are younger than 40. The incidence in men is only 1% of that in women. Family History of Breast Cancer. The greatest ri..."
+      },
+      {
+        "rank": 16,
+        "score": 0.8075991272926331,
+        "id": "pubmed_36737659",
+        "title": "Proactive breast cancer risk assessment in primary care a review based on the principles of screening.",
+        "content": "In the UK, the National Institute for Health and Care Excellence (NICE) recommends that women at moderate or high risk of breast cancer be offered risk-reducing medication and enhanced breast screeningsurveillance. In June 2022, NICE withdrew a statement recommending assessment of risk in primary care only when women present with concerns. This shift to the proactive assessment of risk substantially changes the role of primary care, in effect paving the way for a primary care-based screening pro..."
+      },
+      {
+        "rank": 17,
+        "score": 0.806891918182373,
+        "id": "Surgery_Schwartz_2198",
+        "title": "Surgery_Schwartz",
+        "content": "and colleagues analyzed the data from 2852 breast cancer cases and 3146 controls from the Breast Cancer Detection and Demonstration Project, a mammography screening project conducted in the 1970s, and developed a model for project-ing breast cancer incidence. The model uses risk factors such as an individual\u2019s age, age at menarche, age at first live birth, number of first-degree relatives with breast cancer, number of previous breast biopsy specimens, and whether the biopsy speci-men results rev..."
+      },
+      {
+        "rank": 18,
+        "score": 0.8061672449111938,
+        "id": "pubmed_36792273",
+        "title": "High-Risk Lesion Management.",
+        "content": "High-risk lesions or lesions of uncertain malignant potential are frequent findings on image-guided needle biopsy of the breast and comprise a number of distinct entities. These lesions are known for having risk of underlying malignancy and are usually associated with an increased lifetime risk for breast cancer. Surgical excision was traditionally recommended for all high-risk lesions but recent studies have demonstrated that vacuum-assisted excision or surveillance may be adequate for some les..."
+      },
+      {
+        "rank": 19,
+        "score": 0.8059414625167847,
+        "id": "pubmed_36214783",
+        "title": "Breast density and risk of breast cancer.",
+        "content": "Early studies reported a 4- to 6-fold risk of breast cancer between women with extremely dense and fatty breasts. As most early studies were case-control studies, we took advantage of a population-based screening program to study density and breast cancer incidence in a cohort design. In the Capital Region, Denmark, women aged 50 to 69 are invited to screening biennially. Women screened November 2012 to December 2017 were included, and classified by BI-RADS density code, version 4, at first scre..."
+      },
+      {
+        "rank": 20,
+        "score": 0.8048653602600098,
+        "id": "pubmed_36350472",
+        "title": "Development of a key performance indicator for breast cancer in Queensland, Australia.",
+        "content": "Using population-based data for women diagnosed with stage I-III breast cancer, our aim was to examine the impact of time to treatment completion on survival and to identify factors associated with treatment delay. This retrospective study used clinical and treatment data from the Queensland Oncology Repository. Time from diagnosis to completing surgery, chemotherapy and radiation therapy identified a cut-off of 37 weeks as the optimal threshold for completing treatment. Logistic regression was ..."
+      }
+    ]
+  }
+}

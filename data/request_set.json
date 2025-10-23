@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "question": "A 52-year-old woman presents with a palpable breast mass. Mammography reveals a 2.5 cm spiculated mass with microcalcifications. Core needle biopsy confirms invasive ductal carcinoma, ER positive, PR positive, HER2 negative. What is the most appropriate initial treatment?",
+    "options": {
+      "A": "Lumpectomy with sentinel lymph node biopsy followed by radiation",
+      "B": "Neoadjuvant chemotherapy followed by mastectomy",
+      "C": "Mastectomy alone without lymph node evaluation",
+      "D": "Hormonal therapy alone without surgery"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following molecular markers is most strongly associated with response to trastuzumab therapy in breast cancer?",
+    "options": {
+      "A": "ER (Estrogen Receptor) positivity",
+      "B": "PR (Progesterone Receptor) positivity",
+      "C": "HER2 (Human Epidermal Growth Factor Receptor 2) amplification",
+      "D": "BRCA1 mutation"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "q3",
+    "question": "A 45-year-old woman with a strong family history of breast and ovarian cancer tests positive for a BRCA1 mutation. She has no current malignancy. Which of the following is the most effective risk-reduction strategy?",
+    "options": {
+      "A": "Annual mammography alone",
+      "B": "Tamoxifen chemoprevention only",
+      "C": "Bilateral prophylactic mastectomy and salpingo-oophorectomy",
+      "D": "Increased physical activity and dietary modification"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "q4",
+    "question": "What is the primary mechanism of action of aromatase inhibitors in the treatment of postmenopausal breast cancer?",
+    "options": {
+      "A": "Direct blockade of estrogen receptors",
+      "B": "Inhibition of peripheral conversion of androgens to estrogens",
+      "C": "Stimulation of progesterone receptor expression",
+      "D": "Enhancement of HER2 receptor degradation"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "q5",
+    "question": "A 38-year-old woman is diagnosed with inflammatory breast cancer. Which of the following clinical features is most characteristic of this condition?",
+    "options": {
+      "A": "A discrete, mobile breast mass",
+      "B": "Peau d'orange appearance with skin erythema and edema",
+      "C": "Nipple discharge without palpable mass",
+      "D": "Bilateral breast calcifications on mammography"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "q6",
+    "question": "Which histological subtype of breast cancer is most commonly associated with BRCA1 mutations?",
+    "options": {
+      "A": "Invasive lobular carcinoma",
+      "B": "Tubular carcinoma",
+      "C": "Triple-negative (basal-like) breast cancer",
+      "D": "Mucinous carcinoma"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "q7",
+    "question": "A 60-year-old woman with metastatic ER-positive breast cancer has disease progression on tamoxifen and an aromatase inhibitor. Which of the following represents the next most appropriate treatment strategy?",
+    "options": {
+      "A": "Switch to a different aromatase inhibitor",
+      "B": "Add a CDK4/6 inhibitor to hormonal therapy",
+      "C": "Discontinue all hormonal therapy",
+      "D": "Increase the dose of current aromatase inhibitor"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "q8",
+    "question": "What is the primary purpose of sentinel lymph node biopsy in early-stage breast cancer?",
+    "options": {
+      "A": "To determine the need for adjuvant systemic therapy",
+      "B": "To stage the axilla and guide decisions about axillary lymph node dissection",
+      "C": "To identify the primary site of distant metastases",
+      "D": "To determine breast cancer molecular subtype"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "q9",
+    "question": "A 55-year-old woman presents with Paget disease of the nipple. What is the most likely underlying pathology?",
+    "options": {
+      "A": "Benign intraductal papilloma",
+      "B": "Underlying ductal carcinoma in situ or invasive carcinoma",
+      "C": "Fibrocystic breast changes",
+      "D": "Localized skin infection"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "q10",
+    "question": "Which of the following factors is most strongly associated with an increased risk of developing breast cancer?",
+    "options": {
+      "A": "Early menarche and late menopause",
+      "B": "Multiparity with first pregnancy before age 20",
+      "C": "Regular physical exercise",
+      "D": "Low dietary fat intake"
+    },
+    "answer": "A"
+  }
+]

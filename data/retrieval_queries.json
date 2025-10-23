@@ -1,0 +1,42 @@
+[
+  {
+    "id": "q1",
+    "question": "A 52-year-old woman presents with a palpable breast mass. Mammography reveals a 2.5 cm spiculated mass with microcalcifications. Core needle biopsy confirms invasive ductal carcinoma, ER positive, PR positive, HER2 negative. What is the most appropriate initial treatment?"
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following molecular markers is most strongly associated with response to trastuzumab therapy in breast cancer?"
+  },
+  {
+    "id": "q3",
+    "question": "A 45-year-old woman with a strong family history of breast and ovarian cancer tests positive for a BRCA1 mutation. She has no current malignancy. Which of the following is the most effective risk-reduction strategy?"
+  },
+  {
+    "id": "q4",
+    "question": "What is the primary mechanism of action of aromatase inhibitors in the treatment of postmenopausal breast cancer?"
+  },
+  {
+    "id": "q5",
+    "question": "A 38-year-old woman is diagnosed with inflammatory breast cancer. Which of the following clinical features is most characteristic of this condition?"
+  },
+  {
+    "id": "q6",
+    "question": "Which histological subtype of breast cancer is most commonly associated with BRCA1 mutations?"
+  },
+  {
+    "id": "q7",
+    "question": "A 60-year-old woman with metastatic ER-positive breast cancer has disease progression on tamoxifen and an aromatase inhibitor. Which of the following represents the next most appropriate treatment strategy?"
+  },
+  {
+    "id": "q8",
+    "question": "What is the primary purpose of sentinel lymph node biopsy in early-stage breast cancer?"
+  },
+  {
+    "id": "q9",
+    "question": "A 55-year-old woman presents with Paget disease of the nipple. What is the most likely underlying pathology?"
+  },
+  {
+    "id": "q10",
+    "question": "Which of the following factors is most strongly associated with an increased risk of developing breast cancer?"
+  }
+]
