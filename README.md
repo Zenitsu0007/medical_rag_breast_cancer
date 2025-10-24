@@ -8,7 +8,7 @@
 
 Medical RAG system for breast cancer question-answering using biomedical textbooks and PubMed abstracts as corpus for retrieval.
 
-## Files
+## Skeleton Retrieval System
 
 ### Python Scripts
 
@@ -42,7 +42,7 @@ Medical RAG system for breast cancer question-answering using biomedical textboo
 - **`requirements.txt`** - Python dependencies
 - **`.gitignore`** - Git ignore rules (excludes large data files)
 
-## Setup
+### Setup
 
 ```bash
 python3 -m venv venv
@@ -95,7 +95,7 @@ python -m eval.evaluator \
   --per-query data/metrics_per_query.jsonl
 ```
 
-## Completed
+## Progress (Phase 1)
 
 ✅ Dataset: 135,360 medical documents (2 types)  
 ✅ Request Set: 10 breast cancer questions  
