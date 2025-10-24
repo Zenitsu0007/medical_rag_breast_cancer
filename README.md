@@ -67,7 +67,7 @@ For each of the 10 questions, we:
 
 **Note**: The `rank` field indicates where the document appeared in the **original retrieval results** (1-20), NOT the manual selection order. This is crucial for calculating retrieval metrics.
 
-## Evaluation (`eval/evaluator.py`)
+## Evaluation (`evaluator.py`)
 
 This script evaluates retrieval quality using our manual gold labels. It **does not require rebuilding the index**; it only reads the saved retrieval outputs and labels.
 
