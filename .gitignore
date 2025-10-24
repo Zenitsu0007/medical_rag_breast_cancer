@@ -11,13 +11,13 @@ ENV/
 dist/
 build/
 
-# Data files (too large for git)
-data/*.npy
-data/*.index
-data/*.jsonl
-
 # Keep metadata and results
 !data/*.json
+
+# Large data files - don't commit these
+data/*.index
+data/*.npy
+data/*.jsonl
 
 # IDE
 .vscode/
