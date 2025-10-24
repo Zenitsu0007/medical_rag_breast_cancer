@@ -67,6 +67,34 @@ For each of the 10 questions, we:
 
 **Note**: The `rank` field indicates where the document appeared in the **original retrieval results** (1-20), NOT the manual selection order. This is crucial for calculating retrieval metrics.
 
+## Evaluation (`eval/evaluator.py`)
+
+This script evaluates retrieval quality using our manual gold labels. It **does not require rebuilding the index**; it only reads the saved retrieval outputs and labels.
+
+**Inputs**
+- `data/raw_retrieval_results.json`: per-query top-20 candidates from MedCPT+FAISS (`[{id, title, content, rank, score}]`)
+- `data/manual_labels.json`: per-query manual gold (`manually_selected_top_5`) with graded relevance `{id, title, content, rank, relevance_score∈{0,1,2}}`
+
+**Metrics (k ∈ {5, 10, 20})**
+- **Hit@k**: whether at least one relevant doc (relevance ≥ 1) appears in top-k.
+- **MRR@k**: reciprocal rank of the first relevant doc within top-k (0 if none).
+- **Recall@k**: (# relevant in top-k) / (total relevant in gold, relevance ≥ 1).
+- **nDCG@k**: graded relevance (0/1/2) with log2 discount and ideal normalization.
+
+**Protocol & Edge Cases**
+- Candidates are sorted by `rank` (1…20). Duplicates are deduplicated by keeping the earliest rank.
+- Queries with **no relevant gold** are **skipped** for Recall/nDCG averaging (reported in the summary).
+- A sanity log is written for missing fields/empty lists.
+
+**Quick Run**
+```bash
+python -m eval.evaluator \
+  --raw data/raw_retrieval_results.json \
+  --gold data/manual_labels.json \
+  --out data/evaluation_report.json \
+  --per-query data/metrics_per_query.jsonl
+
+
 ## Completed
 
 ✅ Dataset: 135,360 medical documents (2 types)  
