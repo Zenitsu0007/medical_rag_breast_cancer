@@ -93,7 +93,7 @@ python -m eval.evaluator \
   --gold data/manual_labels.json \
   --out data/evaluation_report.json \
   --per-query data/metrics_per_query.jsonl
-
+```
 
 ## Completed
 
