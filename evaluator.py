@@ -1,198 +1,379 @@
+"""
+Medical RAG Evaluation Pipeline
+
+Evaluates retrieval quality using:
+1. Manual gold labels (when available)
+2. Auto-relevance estimation (keyword-based, for fair cross-method comparison)
+
+Metrics: Hit@k, MRR@k, Recall@k, nDCG@k (k ∈ {5, 10, 20})
+
+Usage:
+    # Evaluate single method
+    python evaluator.py --results data/retrieval_results_baseline.json
+    
+    # Compare baseline vs RRF-2
+    python evaluator.py --compare
+"""
+
 import argparse
 import json
 import math
+import re
 from pathlib import Path
-from typing import Dict, List, Tuple, Any
+from typing import Dict, List, Any, Optional
+
+
+# Question-specific keywords for auto-relevance estimation
+QUESTION_KEYWORDS = {
+    "q1": {
+        "decisive": ["invasive ductal carcinoma", "er positive", "pr positive", "her2 negative", 
+                    "lumpectomy", "sentinel lymph node", "breast conserving", "breast conservation"],
+        "supportive": ["breast cancer treatment", "surgical", "mastectomy", "radiation", "ductal", 
+                      "hormone receptor", "staging", "biopsy"]
+    },
+    "q2": {
+        "decisive": ["trastuzumab", "her2", "herceptin", "her-2", "erbb2", "her2-positive", 
+                    "her2 amplification", "her2 overexpression"],
+        "supportive": ["targeted therapy", "breast cancer", "molecular marker", "receptor", "response"]
+    },
+    "q3": {
+        "decisive": ["brca1", "brca2", "prophylactic mastectomy", "risk reducing", "salpingo-oophorectomy",
+                    "bilateral mastectomy", "risk reduction"],
+        "supportive": ["genetic mutation", "hereditary", "family history", "ovarian cancer", 
+                      "cancer risk", "prevention"]
+    },
+    "q4": {
+        "decisive": ["aromatase inhibitor", "aromatase", "androgen to estrogen", "peripheral conversion",
+                    "anastrozole", "letrozole", "exemestane", "estrogen synthesis"],
+        "supportive": ["postmenopausal", "hormone receptor", "endocrine therapy", "breast cancer", 
+                      "estrogen", "mechanism"]
+    },
+    "q5": {
+        "decisive": ["inflammatory breast cancer", "peau d'orange", "skin erythema", "skin edema",
+                    "orange peel", "inflammatory carcinoma"],
+        "supportive": ["breast cancer", "clinical features", "erythema", "edema", "skin changes", 
+                      "aggressive"]
+    },
+    "q6": {
+        "decisive": ["brca1", "triple negative", "triple-negative", "basal-like", "basal", 
+                    "tnbc", "brca1 mutation"],
+        "supportive": ["histological subtype", "breast cancer", "mutation", "hereditary", 
+                      "receptor negative"]
+    },
+    "q7": {
+        "decisive": ["cdk4/6 inhibitor", "cdk4", "cdk6", "palbociclib", "ribociclib", "abemaciclib",
+                    "er positive metastatic", "endocrine resistance"],
+        "supportive": ["metastatic breast cancer", "aromatase inhibitor", "tamoxifen", "progression",
+                      "treatment strategy", "hormone therapy"]
+    },
+    "q8": {
+        "decisive": ["sentinel lymph node", "axillary staging", "axillary lymph node dissection",
+                    "slnb", "alnd", "sentinel node biopsy"],
+        "supportive": ["early stage breast cancer", "lymph node", "staging", "axilla", "metastasis"]
+    },
+    "q9": {
+        "decisive": ["paget disease", "paget's disease", "nipple", "underlying carcinoma",
+                    "underlying malignancy", "dcis", "ductal carcinoma in situ"],
+        "supportive": ["breast cancer", "nipple lesion", "areola", "breast malignancy"]
+    },
+    "q10": {
+        "decisive": ["early menarche", "late menopause", "risk factor", "estrogen exposure",
+                    "nulliparity", "hormone exposure", "age at menarche"],
+        "supportive": ["breast cancer risk", "increased risk", "developing breast cancer",
+                      "reproductive", "hormonal"]
+    }
+}
+
 
 def load_json(path: Path) -> Any:
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
+
 
 def save_json(path: Path, obj: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
-def log2(x: float) -> float:
-    return math.log2(x)
 
-def dcg_at_k(retrieved_ids: List[str], gains: Dict[str, int], k: int) -> float:
+def dcg_at_k(gains: List[int], k: int) -> float:
     dcg = 0.0
-    for i, doc_id in enumerate(retrieved_ids[:k], start=1):
-        g = gains.get(doc_id, 0)
+    for i, g in enumerate(gains[:k], start=1):
         if g > 0:
-            dcg += g / log2(i + 1)
+            dcg += g / math.log2(i + 1)
     return dcg
 
-def idcg_at_k(gold_gains: List[int], k: int) -> float:
-    if not gold_gains:
-        return 0.0
-    sorted_g = sorted(gold_gains, reverse=True)[:k]
+
+def idcg_at_k(gains: List[int], k: int) -> float:
+    sorted_gains = sorted(gains, reverse=True)[:k]
     idcg = 0.0
-    for i, g in enumerate(sorted_g, start=1):
+    for i, g in enumerate(sorted_gains, start=1):
         if g > 0:
-            idcg += g / log2(i + 1)
+            idcg += g / math.log2(i + 1)
     return idcg
 
-def first_relevant_rank(retrieved_ids: List[str], gains: Dict[str, int], k: int) -> int:
-    for i, doc_id in enumerate(retrieved_ids[:k], start=1):
-        if gains.get(doc_id, 0) >= 1:
-            return i
+
+def estimate_relevance(qid: str, title: str, content: str) -> int:
+    """Estimate relevance using question-specific keywords."""
+    text = (str(title) + " " + str(content)).lower()
+    keywords = QUESTION_KEYWORDS.get(qid, {"decisive": [], "supportive": []})
+    
+    for kw in keywords["decisive"]:
+        if kw.lower() in text:
+            return 2
+    
+    supportive_count = sum(1 for kw in keywords["supportive"] if kw.lower() in text)
+    if supportive_count >= 2:
+        return 1
+    
     return 0
 
-def metrics_for_query(
-    retrieved_ids: List[str],
-    gold_gains_map: Dict[str, int],
-    k_values: List[int]
-) -> Dict[str, Dict[int, float]]:
-    gold_gains = list(gold_gains_map.values())
-    gold_relevant_count = sum(1 for g in gold_gains if g >= 1)
-    has_relevant_gold = gold_relevant_count > 0
 
-    out = {
-        "hit": {},
-        "mrr": {},
-        "recall": {},
-        "ndcg": {},
-        "flags": {"has_relevant_gold": has_relevant_gold, "gold_rels": gold_relevant_count}
+def compute_metrics(gains: List[int], k_values: List[int]) -> Dict[str, Dict[int, float]]:
+    """Compute all metrics given relevance gains for ranked results."""
+    num_relevant = sum(1 for g in gains if g >= 1)
+    
+    # Find first relevant position
+    first_rel = 0
+    for i, g in enumerate(gains, start=1):
+        if g >= 1:
+            first_rel = i
+            break
+    
+    metrics = {"hit": {}, "mrr": {}, "recall": {}, "ndcg": {}}
+    
+    for k in k_values:
+        # Hit@k
+        metrics["hit"][k] = 1.0 if first_rel > 0 and first_rel <= k else 0.0
+        
+        # MRR@k
+        metrics["mrr"][k] = (1.0 / first_rel) if first_rel > 0 and first_rel <= k else 0.0
+        
+        # Recall@k
+        if num_relevant > 0:
+            rel_in_topk = sum(1 for g in gains[:k] if g >= 1)
+            metrics["recall"][k] = rel_in_topk / num_relevant
+        else:
+            metrics["recall"][k] = None
+        
+        # nDCG@k
+        dcg = dcg_at_k(gains, k)
+        idcg = idcg_at_k(gains, k)
+        metrics["ndcg"][k] = dcg / idcg if idcg > 0 else None
+    
+    return metrics
+
+
+def evaluate_results(results: Dict, gold_labels: Optional[Dict], 
+                    k_values: List[int], use_auto_relevance: bool = False) -> Dict:
+    """
+    Evaluate retrieval results.
+    
+    Args:
+        results: Retrieval results (per query)
+        gold_labels: Manual gold labels (optional if using auto-relevance)
+        k_values: List of k values for metrics
+        use_auto_relevance: If True, use keyword-based relevance estimation
+    """
+    qids = sorted(results.keys())
+    
+    per_query = {}
+    summary = {m: {k: [] for k in k_values} for m in ["hit", "mrr", "recall", "ndcg"]}
+    latencies = []
+    
+    for qid in qids:
+        items = results[qid].get("top_20_results", [])
+        items.sort(key=lambda x: x.get("rank", 999))
+        
+        if use_auto_relevance:
+            # Use keyword-based relevance estimation
+            gains = [estimate_relevance(qid, item.get("title", ""), item.get("content", "")) 
+                    for item in items]
+        else:
+            # Use manual gold labels
+            if gold_labels is None:
+                raise ValueError("gold_labels required when use_auto_relevance=False")
+            
+            gold_entry = gold_labels.get(qid, {})
+            gold_list = gold_entry.get("manually_selected_top_5", [])
+            gold_map = {x["id"]: x.get("relevance_score", 0) for x in gold_list if "id" in x}
+            gains = [gold_map.get(item.get("id"), 0) for item in items]
+        
+        # Compute metrics
+        metrics = compute_metrics(gains, k_values)
+        per_query[qid] = {"metrics": metrics, "gains": gains[:20]}
+        
+        # Aggregate
+        for m in ["hit", "mrr", "recall", "ndcg"]:
+            for k in k_values:
+                if metrics[m][k] is not None:
+                    summary[m][k].append(metrics[m][k])
+        
+        # Latency
+        if "latency_ms" in results[qid]:
+            latencies.append(results[qid]["latency_ms"])
+    
+    # Compute averages
+    avg_summary = {}
+    for m in summary:
+        avg_summary[m] = {}
+        for k in k_values:
+            vals = summary[m][k]
+            avg_summary[m][k] = sum(vals) / len(vals) if vals else None
+    
+    return {
+        "summary": avg_summary,
+        "per_query": per_query,
+        "num_queries": len(qids),
+        "avg_latency_ms": sum(latencies) / len(latencies) if latencies else None
     }
 
-    for k in k_values:
-        fr = first_relevant_rank(retrieved_ids, gold_gains_map, k)
-        out["hit"][k] = 1.0 if fr > 0 else 0.0
-        out["mrr"][k] = (1.0 / fr) if fr > 0 else 0.0
 
-        if has_relevant_gold:
-            retrieved_topk = retrieved_ids[:k]
-            bin_relevant_in_topk = sum(1 for d in retrieved_topk if gold_gains_map.get(d, 0) >= 1)
-            out["recall"][k] = bin_relevant_in_topk / gold_relevant_count
-        else:
-            out["recall"][k] = None
-
-        dcg = dcg_at_k(retrieved_ids, gold_gains_map, k)
-        idcg = idcg_at_k(gold_gains, k)
-        if idcg > 0:
-            out["ndcg"][k] = dcg / idcg
-        else:
-            out["ndcg"][k] = None
-
-    return out
-
-def aggregate_all(per_query: Dict[str, Dict[str, Dict[int, float]]], k_values: List[int]) -> Dict[str, Dict[int, float]]:
-    summary: Dict[str, Dict[int, float]] = {m: {k: 0.0 for k in k_values} for m in ["hit", "mrr", "recall", "ndcg"]}
-    counts: Dict[str, Dict[int, int]] = {m: {k: 0 for k in k_values} for m in ["hit", "mrr", "recall", "ndcg"]}
-
-    for qid, met in per_query.items():
+def print_metrics_table(evals: Dict[str, Dict], k_values: List[int], title: str):
+    """Print formatted metrics table."""
+    print(f"\n{'='*70}")
+    print(title)
+    print('='*70)
+    
+    methods = list(evals.keys())
+    metrics = ["hit", "mrr", "recall", "ndcg"]
+    
+    for metric in metrics:
+        print(f"\n{metric.upper()}@k:")
+        header = f"  {'Method':<25}"
         for k in k_values:
-            summary["hit"][k] += met["hit"][k]
-            counts["hit"][k] += 1
+            header += f"  @{k:<6}"
+        print(header)
+        print("  " + "-"*55)
+        
+        for method in methods:
+            row = f"  {method:<25}"
+            for k in k_values:
+                val = evals[method]["summary"][metric].get(k)
+                row += f"  {val:<7.4f}" if val is not None else f"  {'N/A':<7}"
+            print(row)
+    
+    # Latency
+    print(f"\nLatency (avg per query):")
+    for method in methods:
+        lat = evals[method].get("avg_latency_ms")
+        print(f"  {method:<25}  {lat:.1f} ms" if lat else f"  {method:<25}  N/A")
 
-            summary["mrr"][k] += met["mrr"][k]
-            counts["mrr"][k] += 1
 
-            if met["recall"][k] is not None:
-                summary["recall"][k] += met["recall"][k]
-                counts["recall"][k] += 1
+def print_improvement(base_eval: Dict, new_eval: Dict, k_values: List[int]):
+    """Print improvement analysis."""
+    print(f"\n{'='*70}")
+    print("IMPROVEMENT ANALYSIS (Phase 2 vs Phase 1)")
+    print('='*70)
+    
+    for metric in ["hit", "mrr", "recall", "ndcg"]:
+        print(f"\n{metric.upper()}:")
+        for k in k_values:
+            base_val = base_eval["summary"][metric].get(k)
+            new_val = new_eval["summary"][metric].get(k)
+            
+            if base_val is not None and new_val is not None:
+                delta = new_val - base_val
+                pct = (delta / base_val * 100) if base_val > 0 else 0
+                sign = "+" if delta >= 0 else ""
+                print(f"  @{k}: {base_val:.4f} → {new_val:.4f} ({sign}{delta:.4f}, {sign}{pct:.1f}%)")
 
-            if met["ndcg"][k] is not None:
-                summary["ndcg"][k] += met["ndcg"][k]
-                counts["ndcg"][k] += 1
-
-    for m in summary:
-        for k in summary[m]:
-            c = counts[m][k]
-            summary[m][k] = (summary[m][k] / c) if c > 0 else None
-
-    summary["_counts"] = counts
-    return summary
-
-def read_retrieved_ids(raw_entry: Dict[str, Any]) -> List[str]:
-    items = raw_entry.get("top_20_results", [])
-    items = [x for x in items if "id" in x and "rank" in x]
-    items.sort(key=lambda x: x["rank"])
-    return [x["id"] for x in items]
-
-def read_gold_gains(gold_entry: Dict[str, Any]) -> Dict[str, int]:
-    lst = gold_entry.get("manually_selected_top_5", [])
-    out = {}
-    for x in lst:
-        if "id" in x and "relevance_score" in x:
-            try:
-                out[x["id"]] = int(x["relevance_score"])
-            except Exception:
-                try:
-                    out[x["id"]] = int(str(x["relevance_score"]).strip())
-                except Exception:
-                    out[x["id"]] = 0
-    return out
 
 def main():
-    parser = argparse.ArgumentParser(description="Evaluate retrieval quality with Hit/MRR/Recall/nDCG at k.")
-    parser.add_argument("--raw", type=Path, default=Path("data/raw_retrieval_results.json"), help="Path to raw retrieval JSON.")
-    parser.add_argument("--gold", type=Path, default=Path("data/manual_labels.json"), help="Path to manual labels JSON.")
-    parser.add_argument("--out", type=Path, default=Path("data/evaluation_report.json"), help="Path to write summary JSON.")
-    parser.add_argument("--per-query", type=Path, default=None, help="Optional path to write per-query metrics JSONL.")
-    parser.add_argument("--k", type=int, nargs="+", default=[5, 10, 20], help="List of cutoff k values.")
+    parser = argparse.ArgumentParser(description="Medical RAG Evaluation")
+    parser.add_argument("--results", type=Path, help="Single result file to evaluate")
+    parser.add_argument("--gold", type=Path, default=Path("data/manual_labels.json"))
+    parser.add_argument("--compare", action="store_true", help="Compare baseline vs RRF-2")
+    parser.add_argument("--auto-relevance", action="store_true", 
+                       help="Use keyword-based auto-relevance (for fair cross-method comparison)")
+    parser.add_argument("--out", type=Path, default=Path("data/evaluation_report.json"))
+    parser.add_argument("--k", type=int, nargs="+", default=[5, 10, 20])
     args = parser.parse_args()
-
-    raw_results = load_json(args.raw)
-    manual_labels = load_json(args.gold)
-
-    qids = sorted(set(raw_results.keys()) & set(manual_labels.keys()))
-
-    per_query_metrics: Dict[str, Dict[str, Dict[int, float]]] = {}
-    skipped_no_gold = 0
-    sanity_logs: List[str] = []
-
-    for qid in qids:
-        retrieved_ids = read_retrieved_ids(raw_results[qid])
-        gold_gains_map = read_gold_gains(manual_labels[qid])
-
-        if not retrieved_ids:
-            sanity_logs.append(f"[WARN] qid={qid} has empty retrieved list.")
-        if not gold_gains_map:
-            skipped_no_gold += 1
-
-        per_query_metrics[qid] = metrics_for_query(
-            retrieved_ids=retrieved_ids,
-            gold_gains_map=gold_gains_map,
-            k_values=args.k
+    
+    k_values = args.k
+    
+    if args.compare:
+        # Compare baseline vs RRF-2
+        print("\n" + "="*70)
+        print("MEDICAL RAG EVALUATION - Phase 1 vs Phase 2 Comparison")
+        print("="*70)
+        
+        baseline_path = Path("data/retrieval_results_baseline.json")
+        rrf2_path = Path("data/retrieval_results_rrf2.json")
+        
+        if not baseline_path.exists() or not rrf2_path.exists():
+            print("Error: Missing result files. Run retriever.py first.")
+            return
+        
+        baseline_results = load_json(baseline_path)
+        rrf2_results = load_json(rrf2_path)
+        gold_labels = load_json(args.gold) if args.gold.exists() else None
+        
+        # Evaluate with auto-relevance (fair comparison)
+        print("\n[Using Auto-Relevance Estimation for Fair Comparison]")
+        
+        baseline_eval = evaluate_results(baseline_results, gold_labels, k_values, use_auto_relevance=True)
+        rrf2_eval = evaluate_results(rrf2_results, gold_labels, k_values, use_auto_relevance=True)
+        
+        evals = {
+            "Phase1-MedCPT (Baseline)": baseline_eval,
+            "Phase2-RRF2 (BM25+MedCPT)": rrf2_eval
+        }
+        
+        print_metrics_table(evals, k_values, "RETRIEVAL QUALITY COMPARISON")
+        print_improvement(baseline_eval, rrf2_eval, k_values)
+        
+        # Save report
+        report = {
+            "evaluation_method": "auto_relevance",
+            "k_values": k_values,
+            "baseline": {
+                "name": "Phase1-MedCPT",
+                "summary": baseline_eval["summary"],
+                "avg_latency_ms": baseline_eval.get("avg_latency_ms")
+            },
+            "rrf2": {
+                "name": "Phase2-RRF2",
+                "summary": rrf2_eval["summary"],
+                "avg_latency_ms": rrf2_eval.get("avg_latency_ms")
+            }
+        }
+        save_json(args.out, report)
+        print(f"\n✓ Report saved to {args.out}")
+        
+    elif args.results:
+        # Evaluate single result file
+        results = load_json(args.results)
+        gold_labels = load_json(args.gold) if args.gold.exists() else None
+        
+        eval_result = evaluate_results(
+            results, gold_labels, k_values, 
+            use_auto_relevance=args.auto_relevance
         )
+        
+        method = "Auto-Relevance" if args.auto_relevance else "Gold Labels"
+        print(f"\n=== Evaluation ({method}) ===")
+        print(f"Results file: {args.results}")
+        print(f"Queries: {eval_result['num_queries']}")
+        
+        for m in ["hit", "mrr", "recall", "ndcg"]:
+            vals = [f"{m}@{k}={eval_result['summary'][m][k]:.4f}" 
+                   for k in k_values if eval_result['summary'][m][k] is not None]
+            print("  " + "  ".join(vals))
+        
+        if eval_result.get("avg_latency_ms"):
+            print(f"  Avg latency: {eval_result['avg_latency_ms']:.1f}ms")
+        
+        save_json(args.out, eval_result)
+        print(f"\n✓ Report saved to {args.out}")
+    
+    else:
+        parser.print_help()
+        print("\nExamples:")
+        print("  python evaluator.py --compare                    # Compare baseline vs RRF-2")
+        print("  python evaluator.py --results data/retrieval_results_baseline.json")
+        print("  python evaluator.py --results data/retrieval_results_rrf2.json --auto-relevance")
 
-    summary = aggregate_all(per_query_metrics, args.k)
-
-    print("=== Retrieval Evaluation Summary ===")
-    print(f"#queries (intersection) = {len(qids)}")
-    if skipped_no_gold > 0:
-        print(f"Note: {skipped_no_gold} queries have no relevant gold; recall/ndcg skip those queries.")
-    for m in ["hit", "mrr", "recall", "ndcg"]:
-        row = []
-        for k in args.k:
-            v = summary[m][k]
-            row.append(f"{m}@{k}={v:.4f}" if v is not None else f"{m}@{k}=NA")
-        print("  " + "  ".join(row))
-
-    report = {
-        "meta": {
-            "num_queries_intersection": len(qids),
-            "skipped_no_gold": skipped_no_gold,
-            "k_values": args.k
-        },
-        "summary": summary
-    }
-    save_json(args.out, report)
-
-    if args.per_query:
-        args.per_query.parent.mkdir(parents=True, exist_ok=True)
-        with args.per_query.open("w", encoding="utf-8") as f:
-            for qid in qids:
-                row = {"qid": qid, **per_query_metrics[qid]}
-                f.write(json.dumps(row, ensure_ascii=False) + "\n")
-
-    sanity_path = Path("data/eval_sanity_log.txt")
-    if sanity_logs:
-        sanity_path.parent.mkdir(parents=True, exist_ok=True)
-        sanity_path.write_text("\n".join(sanity_logs), encoding="utf-8")
 
 if __name__ == "__main__":
     main()

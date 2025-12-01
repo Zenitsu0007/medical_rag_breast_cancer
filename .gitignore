@@ -14,11 +14,6 @@ build/
 # Keep metadata and results
 !data/*.json
 
-# Large data files - don't commit these
-data/*.index
-data/*.npy
-data/*.jsonl
-
 # IDE
 .vscode/
 .idea/
